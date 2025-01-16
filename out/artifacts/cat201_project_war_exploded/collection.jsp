@@ -2452,6 +2452,24 @@
   </ul>
 </div>
 <!-- bottom-menu end -->
-<%@include file="./components/scripts.html"%>
+<!-- jquery js -->
+<script src="../js/jquery-3.6.3.min.js"></script>
+<!-- bootstrap js -->
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!-- magnific-popup js -->
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<!-- owl-carousel js -->
+<script src="../js/owl.carousel.min.js"></script>
+<!-- swiper-slider js -->
+<script src="../js/swiper-bundle.min.js"></script>
+<!-- slick js -->
+<script src="../js/slick.min.js"></script>
+<!-- waypoints js -->
+<script src="../js/waypoints.min.js"></script>
+<!-- counter js -->
+<script src="../js/counter.js"></script>
+<!-- main js -->
+<script src="../js/main.js"></script>
 </body>
 </html>
