@@ -3,42 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="A best stylish, creative, modern responsive template for different eCommerce business or industries." />
-    <meta name="keywords" content="food template, bakery products, html, eCommerce html template,plants, organic food, restaurant, live tree, responsive, pizza, burger, furniture, mobile, watches, electronics, computers accessories, toys, jewellery, restaurant accessories" />
     <meta name="author" content="spacingtech_webify">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- title -->
     <title>Electon - The Electronics eCommerce Bootstrap Template</title>
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="img/favicon/favicon9.png">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
-    <!-- magnific-popup css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <!-- fontawesome css -->
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
-    <!--fether css -->
-    <link rel="stylesheet" type="text/css" href="css/feather.css">
-    <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <!-- owl-carousel css -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
-    <!-- slick slider css -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <!-- collection css -->
-    <link rel="stylesheet" type="text/css" href="css/collection.css">
-    <!-- blog css -->
-    <link rel="stylesheet" type="text/css" href="css/blog.css">
-    <!-- other-pages css -->
-    <link rel="stylesheet" type="text/css" href= "css/other-pages.css">
-    <!-- product-page css -->
-    <link rel="stylesheet" type="text/css" href="css/product-page.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <%@include file="./components/head.html"%>
 </head>
 <body>
 <!-- popup-wrapper start -->
