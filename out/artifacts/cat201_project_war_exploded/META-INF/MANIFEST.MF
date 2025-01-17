@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
-Built-By: USER
+<<<<<<< HEAD
+Built-By: luqma
+=======
+Built-By: user
+>>>>>>> c8358f9da5151dc6d53f0e98466e916876e0dbe9
 Build-Jdk: Oracle OpenJDK 23.0.1
 
