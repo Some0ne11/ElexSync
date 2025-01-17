@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="spacingtech_webify">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- title -->
   <title>Electon - The Electronics eCommerce</title>
@@ -29,9 +28,6 @@
   </div>
 </div>
 <!-- notification-bar end -->
-<!-- header start -->
-
-<!-- header end -->
 <!-- main section start-->
 <main>
   <!-- breadcrumb start -->
@@ -165,18 +161,17 @@
                                       <span class="tooltip-text">Add to cart</span>
                                       <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
                                     </a>
-
                                   </div>
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>22%</span></span>
@@ -235,13 +230,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>14%</span></span>
@@ -300,13 +295,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>22%</span></span>
@@ -331,7 +326,6 @@
                                     <span class="tooltip-text">Add to cart</span>
                                     <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
                                   </a>
-
                                 </div>
                               </div>
                               <div class="product-caption">
@@ -365,13 +359,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>30%</span></span>
@@ -430,13 +424,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>20%</span></span>
@@ -495,13 +489,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>14%</span></span>
@@ -560,13 +554,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>30%</span></span>
@@ -625,13 +619,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>14%</span></span>
@@ -690,13 +684,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>14%</span></span>
@@ -755,13 +749,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>22%</span></span>
@@ -820,12 +814,12 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
                                                                                 </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
@@ -885,13 +879,13 @@
                                 </div>
                                 <div class="pro-label-retting">
                                   <div class="product-ratting">
-                                                                                <span class="pro-ratting">
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                    <i class="fa-solid fa-star"></i>
-                                                                                </span>
+                                    <span class="pro-ratting">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </span>
                                   </div>
                                   <div class="product-label pro-new-sale">
                                     <span class="product-label-title">Sale<span>22%</span></span>
@@ -1171,10 +1165,10 @@
         <li class="menu-link">
           <div class="link-title">
             <a href="#mobile-vega-electronics" data-bs-toggle="collapse" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu1.jpg" class="img-fluid" alt="cate-menu1">
-                                        <span>Pen drivess</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu1.jpg" class="img-fluid" alt="cate-menu1">
+                <span>Pen drivess</span>
+              </span>
               <span class="menu-arrow"><i class="feather-plus"></i></span>
             </a>
           </div>
@@ -1271,20 +1265,20 @@
         <li class="menu-link">
           <div class="link-title">
             <a href="#vega-furniture" data-bs-toggle="collapse" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu2.jpg" class="img-fluid" alt="cate-menu2">
-                                        <span>Smart watch</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu2.jpg" class="img-fluid" alt="cate-menu2">
+                <span>Smart watch</span>
+              </span>
             </a>
           </div>
         </li>
         <li class="menu-link">
           <div class="link-title">
             <a href="#mob-cosmetic" data-bs-toggle="collapse" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu3.jpg" class="img-fluid" alt="cate-menu3">
-                                        <span>Verse earphones</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu3.jpg" class="img-fluid" alt="cate-menu3">
+                <span>Verse earphones</span>
+              </span>
               <span class="menu-arrow"><i class="feather-plus"></i></span>
             </a>
           </div>
@@ -1381,40 +1375,40 @@
         <li class="menu-link">
           <div class="link-title">
             <a href="collection.html" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu4.jpg" class="img-fluid" alt="cate-menu4">
-                                        <span>Wifro camera</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu4.jpg" class="img-fluid" alt="cate-menu4">
+                <span>Wifro camera</span>
+              </span>
             </a>
           </div>
         </li>
         <li class="menu-link">
           <div class="link-title">
             <a href="collection.html" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu5.jpg" class="img-fluid" alt="cate-menu5">
-                                        <span>Bluetooth earbuds</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu5.jpg" class="img-fluid" alt="cate-menu5">
+                <span>Bluetooth earbuds</span>
+              </span>
             </a>
           </div>
         </li>
         <li class="menu-link">
           <div class="link-title">
             <a href="collection.html" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu6.jpg" class="img-fluid" alt="cate-menu6">
-                                        <span>Projector leptop</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu6.jpg" class="img-fluid" alt="cate-menu6">
+                <span>Projector leptop</span>
+              </span>
             </a>
           </div>
         </li>
         <li class="menu-link">
           <div class="link-title">
             <a href="collection.html" class="sp-link-title">
-                                    <span class="menu-img-icon">
-                                        <img src="img/menu/cate-menu7.jpg" class="img-fluid" alt="cate-menu7">
-                                        <span>Wireless mouse</span>
-                                    </span>
+              <span class="menu-img-icon">
+                <img src="img/menu/cate-menu7.jpg" class="img-fluid" alt="cate-menu7">
+                <span>Wireless mouse</span>
+              </span>
             </a>
           </div>
         </li>
@@ -2300,13 +2294,13 @@
               </div>
               <!-- product-rating start -->
               <div class="product-ratting">
-                                        <span class="pro-ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </span>
+                <span class="pro-ratting">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
                 <span class="spr-badge-caption">No reviews</span>
                 <span class="slash">/</span>
                 <div class="product-count-sale">
@@ -2399,7 +2393,6 @@
               </div>
             </div>
           </div>
-          <!-- quick-view-content end -->
         </div>
       </div>
     </div>
@@ -2441,10 +2434,10 @@
     <li class="bottom-menu-wrap">
       <div class="bottom-menu-wrapper">
         <a href="javascript:void(0)" class="bottom-menu-cart">
-                            <span class="bottom-menu-icon-wrap">
-                                <span class="bottom-menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M6.505 2h11a1 1 0 0 1 .8.4l2.7 3.6v15a1 1 0 0 1-1 1h-16a1 1 0 0 1-1-1V6l2.7-3.6a1 1 0 0 1 .8-.4m12.5 6h-14v12h14zm-.5-2l-1.5-2h-10l-1.5 2zm-9.5 4v2a3 3 0 1 0 6 0v-2h2v2a5 5 0 0 1-10 0v-2z"></path></svg></span>
-                                <span class="bottom-menu-counter cart-counter">3</span>
-                            </span>
+          <span class="bottom-menu-icon-wrap">
+            <span class="bottom-menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M6.505 2h11a1 1 0 0 1 .8.4l2.7 3.6v15a1 1 0 0 1-1 1h-16a1 1 0 0 1-1-1V6l2.7-3.6a1 1 0 0 1 .8-.4m12.5 6h-14v12h14zm-.5-2l-1.5-2h-10l-1.5 2zm-9.5 4v2a3 3 0 1 0 6 0v-2h2v2a5 5 0 0 1-10 0v-2z"></path></svg></span>
+            <span class="bottom-menu-counter cart-counter">3</span>
+          </span>
           <span class="bottom-menu-title">Cart</span>
         </a>
       </div>
