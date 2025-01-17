@@ -1,4 +1,4 @@
-package cat201.cat201project;
+package cat201.cat201project.controller;
 
 
 import jakarta.servlet.ServletException;
