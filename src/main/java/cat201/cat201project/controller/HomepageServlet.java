@@ -1,4 +1,4 @@
-package cat201.cat201project;
+package cat201.cat201project.controller;
 
 
 import jakarta.servlet.ServletException;
@@ -9,10 +9,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet (name="HomepageServlet", urlPatterns = "/homepage")
+@WebServlet (name="HomepageServlet", urlPatterns = "/home")
 public class HomepageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/homepage.jsp").forward(request, response);
+        getServletContext().getRequestDispatcher("/login-account.jsp").forward(request, response);
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
