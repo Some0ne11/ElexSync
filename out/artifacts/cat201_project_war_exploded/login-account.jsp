@@ -1,7 +1,25 @@
+<<<<<<< HEAD
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+=======
+>>>>>>> 4d4fb59caf5ba46574b6a51f0e045cf89d8f0814
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+<<<<<<< HEAD
+  <meta name="description" content="A best stylish, creative, modern responsive template for different eCommerce business or industries." />
+  <meta name="keywords" content="food template, bakery products, html, eCommerce html template,plants, organic food, restaurant, live tree, responsive, pizza, burger, furniture, mobile, watches, electronics, computers accessories, toys, jewellery, restaurant accessories" />
+  <meta name="author" content="spacingtech_webify">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- title -->
+  <title>The ElexSync</title>
+  <%@include file="./components/head.html"%>
+
+</head>
+<body>
+<%@include file="./components/notification-bar.html"%>
+<%@include file="./components/header.html"%>
+=======
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- title -->
   <title>ElecSynx - Login Account</title>
@@ -1210,6 +1228,7 @@
   </div>
 </header>
 <!-- header end -->
+>>>>>>> 4d4fb59caf5ba46574b6a51f0e045cf89d8f0814
 <!-- main section start-->
 <main>
   <!-- breadcrumb start -->
@@ -1334,6 +1353,8 @@
   <!-- customer-page end  -->
 </main>
 <!-- main section end-->
+<<<<<<< HEAD
+=======
 <!-- footer start -->
 <section class="footer-area section-ptb">
   <div class="container">
@@ -2364,6 +2385,7 @@
   </div>
 </div>
 <!-- mobile-menu end -->
+>>>>>>> 4d4fb59caf5ba46574b6a51f0e045cf89d8f0814
 <!-- search-modal start -->
 <div class="modal fade" id="searchmodal">
   <div class="modal-dialog">
@@ -2870,6 +2892,12 @@
   </ul>
 </div>
 <!-- bottom-menu end -->
+<<<<<<< HEAD
+<%@include file="./components/footers.html"%>
+<%@include file="./components/scripts.html"%>
+</body>
+</html>
+=======
 <!-- jquery js -->
 <script src="./js/jquery-3.6.3.min.js"></script>
 <!-- bootstrap js -->
@@ -2891,3 +2919,4 @@
 <script src="./js/main.js"></script>
 </body>
 </html>
+>>>>>>> 4d4fb59caf5ba46574b6a51f0e045cf89d8f0814
