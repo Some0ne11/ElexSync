@@ -25,7 +25,7 @@
           <div class="pro-grli-wrapper left-side-wrap">
             <div class="pro-grli-wrap product-grid">
               <div class="collection-img-wrap">
-                <h6 data-animate="animate__fadeInUp" class="st-title">Collection left (23)</h6>
+                <h6 data-animate="animate__fadeInUp" class="st-title">Collection List</h6>
                 <!-- collection info start -->
                 <div class="collection-info">
                   <div class="collection-image" data-animate="animate__fadeInUp">
@@ -84,785 +84,266 @@
                     <div class="col">
                       <div class="collection-wrap">
                         <ul class="product-view-ul">
+                          <!-- Product 1 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-1.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-2.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-1.jpg" class="img-fluid img1 mobile-img1" alt="Airbuds">
+                                  <img src="img/product/home1-pro-2.jpg" class="img-fluid img2 mobile-img2" alt="Airbuds">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Wireless device</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Wireless headphones</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
+                                <div class="product-title"><h6><a href="product-template.html">Airbuds</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 150.00</span>
+                                    <span class="old-price">RM 200.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Listen to a whole new world.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 2 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-3.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-4.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-3.jpg" class="img-fluid img1 mobile-img1" alt="iPad">
+                                  <img src="img/product/home1-pro-4.jpg" class="img-fluid img2 mobile-img2" alt="iPad">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Waterproof</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Waterproof</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">iPad</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,700.00</span>
+                                    <span class="old-price">RM 2,300.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The latest iPad with waterproof capabilities.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 3 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-5.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-6.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-5.jpg" class="img-fluid img1 mobile-img1" alt="MacBook">
+                                  <img src="img/product/home1-pro-6.jpg" class="img-fluid img2 mobile-img2" alt="MacBook">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Live program</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Pen drivess</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">MacBook</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 3,000.00</span>
+                                    <span class="old-price">RM 5,000.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The MacBook for all your live streaming needs.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 4 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-7.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-8.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-7.jpg" class="img-fluid img1 mobile-img1" alt="Party Speakers">
+                                  <img src="img/product/home1-pro-8.jpg" class="img-fluid img2 mobile-img2" alt="Party Speakers">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Waterproof watch</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Smart watch</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$38.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Party Speakers</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,500.00</span>
+                                    <span class="old-price">RM 2,000.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Experience the ultimate sound quality at your parties.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 5 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-9.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-10.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-9.jpg" class="img-fluid img1 mobile-img1" alt="Hard Drive">
+                                  <img src="img/product/home1-pro-10.jpg" class="img-fluid img2 mobile-img2" alt="Hard Drive">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Softness music</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Verse earphones</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$08.00</span>
-                                      <span class="old-price">$10.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Hard Drive</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 325.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>20%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Store your data securely and access it anywhere.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 6 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-11.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-12.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-11.jpg" class="img-fluid img1 mobile-img1" alt="DSLR Camera">
+                                  <img src="img/product/home1-pro-12.jpg" class="img-fluid img2 mobile-img2" alt="DSLR Camera">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Rotation camera</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Wifro camera</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$39.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">DSLR Camera</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,300.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Capture moments with the best DSLR camera.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 7 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-13.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-14.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-13.jpg" class="img-fluid img1 mobile-img1" alt="Wireless Earbuds">
+                                  <img src="img/product/home1-pro-14.jpg" class="img-fluid img2 mobile-img2" alt="Wireless Earbuds">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Wireless device</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Bluetooth earbuds</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$55.00</span>
-                                      <span class="old-price">$58.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Wireless Earbuds</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 500.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Experience freedom with wireless earbuds.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 8 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-15.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-16.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-15.jpg" class="img-fluid img1 mobile-img1" alt="Smart Watch">
+                                  <img src="img/product/home1-pro-16.jpg" class="img-fluid img2 mobile-img2" alt="Smart Watch">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Live program</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Projector leptop</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Smart Watch</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,200.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Track your fitness goals with a smart watch.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 9 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-17.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-18.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-17.jpg" class="img-fluid img1 mobile-img1" alt="Refrigerator">
+                                  <img src="img/product/home1-pro-18.jpg" class="img-fluid img2 mobile-img2" alt="Refrigerator">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Double door</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Refrigerator</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Refrigerator</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 4,800.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Keep your food fresh with a double door refrigerator.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 10 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-19.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-20.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-19.jpg" class="img-fluid img1 mobile-img1" alt="Apple Charger">
+                                  <img src="img/product/home1-pro-20.jpg" class="img-fluid img2 mobile-img2" alt="Apple Charger">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>New system</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">New system</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Apple Charger</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 100.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The next-generation system for your needs.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 11 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-21.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-22.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-21.jpg" class="img-fluid img1 mobile-img1" alt="Avone Machine">
+                                  <img src="img/product/home1-pro-22.jpg" class="img-fluid img2 mobile-img2" alt="Avone Machine">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Avone machine</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Avone machine</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$38.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Avone Machine</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 3,200.00</span>
+                                    <span class="old-price">RM 3,800.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                                                                </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Innovative machine to meet your requirements.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 12 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-23.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-24.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-23.jpg" class="img-fluid img1 mobile-img1" alt="Mobile Cover">
+                                  <img src="img/product/home1-pro-24.jpg" class="img-fluid img2 mobile-img2" alt="Mobile Cover">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Fancy design</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Mobile cover</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$44.00</span>
-                                      <span class="old-price">$48.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Mobile Cover</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 44.00</span>
+                                    <span class="old-price">RM 48.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Stylish mobile cover to protect your phone.</p></div>
                               </div>
                             </div>
                           </li>
                         </ul>
                       </div>
+
                       <div class="paginatoin-area">
                         <ul class="pagination-page-box" data-animate="animate__fadeInUp">
                           <li class="number active"><a href="javascript:void(0)" class="theme-glink">1</a></li>

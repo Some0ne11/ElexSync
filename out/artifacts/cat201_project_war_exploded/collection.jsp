@@ -1,3 +1,4 @@
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,46 +10,12 @@
   <%@include file="./components/head.html"%>
 </head>
 <body>
+<%@include file="./components/header.html"%>
 <!-- notification-bar start -->
-<div class="notification-bar">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <ul class="notification-content">
-          <li class="noti-wrap noti-email-wrap">
-            <div class="noti-email">
-              <div class="emailtext">
-                <p><a href="Email:Electondemo@gmail.com" title="Email:Electondemo@gmail.com">Email : Electondemo@gmail.com</a></p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- notification-bar end -->
 <!-- main section start-->
 <main>
   <!-- breadcrumb start -->
-  <section class="breadcrumb-area">
-    <div class="container">
-      <div class="col">
-        <div class="row">
-          <div class="breadcrumb-index">
-            <!-- breadcrumb-list start -->
-            <ul class="breadcrumb-ul">
-              <li class="breadcrumb-li">
-                <a class="breadcrumb-link" href="index.html">Home</a>
-              </li>
-
-            </ul>
-            <!-- breadcrumb-list end -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- breadcrumb end -->
   <!-- collection start -->
   <section class="main-content-wrap bg-color shop-page section-ptb">
@@ -58,7 +25,7 @@
           <div class="pro-grli-wrapper left-side-wrap">
             <div class="pro-grli-wrap product-grid">
               <div class="collection-img-wrap">
-                <h6 data-animate="animate__fadeInUp" class="st-title">Collection left (23)</h6>
+                <h6 data-animate="animate__fadeInUp" class="st-title">Collection List</h6>
                 <!-- collection info start -->
                 <div class="collection-info">
                   <div class="collection-image" data-animate="animate__fadeInUp">
@@ -117,785 +84,266 @@
                     <div class="col">
                       <div class="collection-wrap">
                         <ul class="product-view-ul">
+                          <!-- Product 1 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-1.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-2.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-1.jpg" class="img-fluid img1 mobile-img1" alt="Airbuds">
+                                  <img src="img/product/home1-pro-2.jpg" class="img-fluid img2 mobile-img2" alt="Airbuds">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Wireless device</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Wireless headphones</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
+                                <div class="product-title"><h6><a href="product-template.html">Airbuds</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 150.00</span>
+                                    <span class="old-price">RM 200.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Listen to a whole new world.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 2 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-3.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-4.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-3.jpg" class="img-fluid img1 mobile-img1" alt="iPad">
+                                  <img src="img/product/home1-pro-4.jpg" class="img-fluid img2 mobile-img2" alt="iPad">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Waterproof</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Waterproof</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">iPad</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,700.00</span>
+                                    <span class="old-price">RM 2,300.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The latest iPad with waterproof capabilities.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 3 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-5.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-6.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-5.jpg" class="img-fluid img1 mobile-img1" alt="MacBook">
+                                  <img src="img/product/home1-pro-6.jpg" class="img-fluid img2 mobile-img2" alt="MacBook">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Live program</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Pen drivess</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">MacBook</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 3,000.00</span>
+                                    <span class="old-price">RM 5,000.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The MacBook for all your live streaming needs.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 4 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-7.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-8.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-7.jpg" class="img-fluid img1 mobile-img1" alt="Party Speakers">
+                                  <img src="img/product/home1-pro-8.jpg" class="img-fluid img2 mobile-img2" alt="Party Speakers">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Waterproof watch</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Smart watch</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$38.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Party Speakers</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,500.00</span>
+                                    <span class="old-price">RM 2,000.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Experience the ultimate sound quality at your parties.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 5 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-9.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-10.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-9.jpg" class="img-fluid img1 mobile-img1" alt="Hard Drive">
+                                  <img src="img/product/home1-pro-10.jpg" class="img-fluid img2 mobile-img2" alt="Hard Drive">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Softness music</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Verse earphones</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$08.00</span>
-                                      <span class="old-price">$10.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Hard Drive</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 325.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>20%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Store your data securely and access it anywhere.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 6 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-11.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-12.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-11.jpg" class="img-fluid img1 mobile-img1" alt="DSLR Camera">
+                                  <img src="img/product/home1-pro-12.jpg" class="img-fluid img2 mobile-img2" alt="DSLR Camera">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Rotation camera</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Wifro camera</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$39.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">DSLR Camera</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,300.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Capture moments with the best DSLR camera.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 7 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-13.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-14.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-13.jpg" class="img-fluid img1 mobile-img1" alt="Wireless Earbuds">
+                                  <img src="img/product/home1-pro-14.jpg" class="img-fluid img2 mobile-img2" alt="Wireless Earbuds">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Wireless device</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Bluetooth earbuds</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$55.00</span>
-                                      <span class="old-price">$58.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Wireless Earbuds</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 500.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Experience freedom with wireless earbuds.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 8 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-15.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-16.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-15.jpg" class="img-fluid img1 mobile-img1" alt="Smart Watch">
+                                  <img src="img/product/home1-pro-16.jpg" class="img-fluid img2 mobile-img2" alt="Smart Watch">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Live program</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Projector leptop</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Smart Watch</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 1,200.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Track your fitness goals with a smart watch.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 9 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-17.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-18.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-17.jpg" class="img-fluid img1 mobile-img1" alt="Refrigerator">
+                                  <img src="img/product/home1-pro-18.jpg" class="img-fluid img2 mobile-img2" alt="Refrigerator">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Double door</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Refrigerator</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$18.00</span>
-                                      <span class="old-price">$24.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Refrigerator</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 4,800.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>14%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Keep your food fresh with a double door refrigerator.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 10 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-19.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-20.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-19.jpg" class="img-fluid img1 mobile-img1" alt="Apple Charger">
+                                  <img src="img/product/home1-pro-20.jpg" class="img-fluid img2 mobile-img2" alt="Apple Charger">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>New system</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">New system</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$10.00</span>
-                                      <span class="old-price">$15.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Apple Charger</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 100.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>The next-generation system for your needs.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 11 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-21.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-22.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-21.jpg" class="img-fluid img1 mobile-img1" alt="Avone Machine">
+                                  <img src="img/product/home1-pro-22.jpg" class="img-fluid img2 mobile-img2" alt="Avone Machine">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Avone machine</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Avone machine</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$32.00</span>
-                                      <span class="old-price">$38.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Avone Machine</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 3,200.00</span>
+                                    <span class="old-price">RM 3,800.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                                                                </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>30%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Innovative machine to meet your requirements.</p></div>
                               </div>
                             </div>
                           </li>
+
+                          <!-- Product 12 -->
                           <li class="pro-item-li" data-animate="animate__fadeInUp">
                             <div class="single-product-wrap">
                               <div class="product-image banner-hover">
                                 <a href="product-template.html" class="pro-img">
-                                  <img src="img/product/home1-pro-23.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                  <img src="img/product/home1-pro-24.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                  <img src="img/product/home1-pro-23.jpg" class="img-fluid img1 mobile-img1" alt="Mobile Cover">
+                                  <img src="img/product/home1-pro-24.jpg" class="img-fluid img2 mobile-img2" alt="Mobile Cover">
                                 </a>
-                                <div class="product-action">
-                                  <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                    <span class="tooltip-text">Quickview</span>
-                                    <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                  </a>
-                                  <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                    <span class="tooltip-text">Add to cart</span>
-                                    <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                  </a>
-
-                                </div>
                               </div>
                               <div class="product-caption">
-                                <div class="product-content">
-                                  <div class="product-sub-title">
-                                    <span>Fancy design</span>
-                                  </div>
-                                  <div class="product-title">
-                                    <h6><a href="product-template.html">Mobile cover</a></h6>
-                                  </div>
-                                  <div class="product-price">
-                                    <div class="pro-price-box">
-                                      <span class="new-price">$44.00</span>
-                                      <span class="old-price">$48.00</span>
-                                    </div>
-                                  </div>
-                                  <div class="product-description">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                                  <div class="product-action">
-                                    <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                      <span class="tooltip-text">Quickview</span>
-                                      <span class="pro-action-icon"><i class="feather-eye"></i></span>
-                                    </a>
-                                    <a href="#add-to-cart" class="add-to-cart" data-bs-toggle="modal" data-bs-target="#add-to-cart">
-                                      <span class="tooltip-text">Add to cart</span>
-                                      <span class="pro-action-icon"><i class="feather-shopping-bag"></i></span>
-                                    </a>
-
+                                <div class="product-title"><h6><a href="product-template.html">Mobile Cover</a></h6></div>
+                                <div class="product-price">
+                                  <div class="pro-price-box">
+                                    <span class="new-price">RM 44.00</span>
+                                    <span class="old-price">RM 48.00</span>
                                   </div>
                                 </div>
-                                <div class="pro-label-retting">
-                                  <div class="product-ratting">
-                                    <span class="pro-ratting">
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                      <i class="fa-solid fa-star"></i>
-                                    </span>
-                                  </div>
-                                  <div class="product-label pro-new-sale">
-                                    <span class="product-label-title">Sale<span>22%</span></span>
-                                  </div>
-                                </div>
+                                <div class="product-description"><p>Stylish mobile cover to protect your phone.</p></div>
                               </div>
                             </div>
                           </li>
                         </ul>
                       </div>
+
                       <div class="paginatoin-area">
                         <ul class="pagination-page-box" data-animate="animate__fadeInUp">
                           <li class="number active"><a href="javascript:void(0)" class="theme-glink">1</a></li>
@@ -936,1030 +384,14 @@
 </main>
 <!-- main section end-->
 <!-- footer start -->
-<section class="footer-area bt section-ptb">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="footer-list">
-          <ul class="footer-ul">
-            <li class="footer-li footer-logo" data-animate="animate__fadeInUp">
-              <div class="footer-content">
-                <a href="index.html" class="theme-logo">
-                  <img src="img/logo/logo.png" class="img-fluid" alt="footer-logo">
-                </a>
-                <ul class="ftcontact-ul">
-                  <li class="ftcontact-li">
-                    <div class="footer-desc">
-                      <p class="desc">There are many variations of passages of lorem Ipsum available, but the majority .. </p>
-                    </div>
-                  </li>
-                </ul>
-                <div class="app-code">
-                  <h6 class="ftlist-title">Download for app</h6>
-                  <div class="code-1">
-                    <a href="index.html" class="image">
-                      <img src="img/footer/home-footer1.jpg" class="img-fluid desk-img" alt="gp-icon-01">
-                    </a>
-                    <a href="index.html" class="image">
-                      <img src="img/footer/home-footer2.jpg" class="img-fluid desk-img" alt="as-icon-02">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="footer-li" data-animate="animate__fadeInUp">
-              <ul class="ftlist-ul">
-                <li class="ftlist-li">
-                  <h6 class="ftlist-title">Help with</h6>
-                  <a href="#footer-help" class="ftlist-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span>Help with</span>
-                    <span><i class="fa-solid fa-plus"></i></span>
-                  </a>
-                  <ul class="ftlink-ul collapse" id="footer-help">
-                    <li class="ftlink-li">
-                      <a href="contact-us.html">Contact us</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="terms-condition.html">Terms & conditions</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="track-page.html">Track your order</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="shipping-policy.html">Our guarantee </a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="pro-tickets.html">Guide des tailles</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-li" data-animate="animate__fadeInUp">
-              <ul class="ftlist-ul">
-                <li class="ftlist-li">
-                  <h6 class="ftlist-title">Information</h6>
-                  <a href="#footer-information" class="ftlist-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span>Information</span>
-                    <span><i class="fa-solid fa-plus"></i></span>
-                  </a>
-                  <ul class="ftlink-ul collapse" id="footer-information">
-                    <li class="ftlink-li">
-                      <a href="about-us.html">About story</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="Privacy-policy.html">Privacy policy</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="return-policy.html">Return policy</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="payment-policy.html">Payment policy</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="collection.html">We our brand</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-li" data-animate="animate__fadeInUp">
-              <ul class="ftlist-ul">
-                <li class="ftlist-li">
-                  <h6 class="ftlist-title">Top category</h6>
-                  <a href="#footer-category" class="ftlist-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span>Top category</span>
-                    <span><i class="fa-solid fa-plus"></i></span>
-                  </a>
-                  <ul class="ftlink-ul collapse" id="footer-category">
-                    <li class="ftlink-li">
-                      <a href="product-template.html">Wireless headphone</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="product-template2.html">Bluetooth speakers</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="product-template3.html">Portable devices</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="product-template4.html">Monio live camera</a>
-                    </li>
-                    <li class="ftlink-li">
-                      <a href="product-template5.html">Movie projector T6</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="footer-li footer-contact" data-animate="animate__fadeInUp">
-              <ul class="ftlist-ul">
-                <li class="ftlist-li">
-                  <h6 class="ftlist-title">Contact info</h6>
-                  <a href="#footer-Contact" class="ftlist-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span>Contact info</span>
-                    <span><i class="fa-solid fa-plus"></i></span>
-                  </a>
-                  <ul class="ftcontact-ul collapse" id="footer-Contact">
-                    <li class="ftcontact-li">
-                      <div class="ft-contact-add">
-                        <a href="#" class="ft-contact-address">Phone: +1 234 567 890 </a>
-                      </div>
-                    </li>
-                    <li class="ftcontact-li">
-                      <div class="ft-contact-add">
-                        <a href="Email:info@domain.com" class="ft-contact-address">Email: info@domain.com</a>
-                      </div>
-                    </li>
-                    <li class="ftcontact-li">
-                      <div class="ft-contact-add">
-                        <p class="ft-contact-text">401 Broadway, 24th floor,</p>
-                      </div>
-                    </li>
-                    <li class="ftcontact-li">
-                      <div class="ft-contact-add">
-                        <p class="ft-contact-text">orchard view, london, UK</p>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- footer end -->
 <!-- footer-copyright start -->
-<footer class="ft-copyright-area bt">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="ft-copyright">
-          <ul class="ft-copryright-ul">
-            <li class="ft-copryright-li ft-payment">
-              <ul class="payment-icon">
-                <li>
-                  <a href="index.html">
-                    <img src="img/payment/pay-1.jpg" class="img-fluid" alt="pay-1">
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html">
-                    <img src="img/payment/pay-2.jpg" class="img-fluid" alt="pay-2">
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html">
-                    <img src="img/payment/pay-3.jpg" class="img-fluid" alt="pay-3">
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html">
-                    <img src="img/payment/pay-4.jpg" class="img-fluid" alt="pay-4">
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="ft-copryright-li news-letter">
-              <div class="news-block">
-                <div class="section-title">
-                  <h2>Subscribe newsletter</h2>
-                </div>
-                <form method="post" id="contact_form" accept-charset="UTF-8" class="contact-form">
-                  <input type="hidden" name="form_type" value="customer">
-                  <input type="hidden" name="utf8" value="✓">
-                  <input type="hidden" name="contact[tags]" value="newsletter">
-                  <div class="subscribe-block">
-                    <input type="email" name="contact[email]" class="email mail" id="E-mail" value="" placeholder="Enter your email" autocapitalize="off">
-                    <div class="email-submit">
-                      <button type="submit" class="btn btn-style2">Send</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </li>
-            <li class="ft-copryright-li ft-copyright-text">
-              <p>
-                <span>© 2024 Power by spacingtech template</span>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+
 <!-- footer-copyright end -->
 <!-- vega-mobile start -->
-<div class="mobile-vega">
-  <div class="vega-menu-area">
-    <div class="mobile-vega-menu" id="mobile-vega-menu">
-      <div class="vega-close">
-        <button class="vega-close-btn">
-          <span class="vega-close-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span>
-        </button>
-      </div>
-      <ul class="vega-menu">
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="#mobile-vega-electronics" data-bs-toggle="collapse" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu1.jpg" class="img-fluid" alt="cate-menu1">
-                <span>Pen drivess</span>
-              </span>
-              <span class="menu-arrow"><i class="feather-plus"></i></span>
-            </a>
-          </div>
-          <div class="menu-dropdown product-menu collapse" id="mobile-vega-electronics">
-            <ul class="ul">
-              <li class="productlink-li">
-                <div class="productlink-title">
-                  <a href="#vega-sub1" data-bs-toggle="collapse" class="sp-link-title">
-                    <span>Shop page</span>
-                    <span class="menu-arrow"><i class="feather-plus"></i></span>
-                  </a>
-                </div>
-                <ul class="productsupmenu-dropdown collapse" id="vega-sub1">
-                  <li class="productsupmenu-li">
-                    <a href="collection-without.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection left</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-right.htm" class="productsuplink-title">
-                      <span class="sp-link-title">Collection right</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-list-without.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-list.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list lef</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list right</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="productlink-li">
-                <div class="productlink-title">
-                  <a href="#vega-sub2" data-bs-toggle="collapse" class="sp-link-title">
-                    <span>Product page</span>
-                    <span class="menu-arrow"><i class="feather-plus"></i></span>
-                  </a>
-                </div>
-                <ul class="productsupmenu-dropdown collapse" id="vega-sub2">
-                  <li class="productsupmenu-li">
-                    <a href="product-template.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product layout</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template2.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product tab</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template3.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product advanc</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template4.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product advance</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template5.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product accordion</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template6.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product center</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template7.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product side</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="#vega-furniture" data-bs-toggle="collapse" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu2.jpg" class="img-fluid" alt="cate-menu2">
-                <span>Smart watch</span>
-              </span>
-            </a>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="#mob-cosmetic" data-bs-toggle="collapse" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu3.jpg" class="img-fluid" alt="cate-menu3">
-                <span>Verse earphones</span>
-              </span>
-              <span class="menu-arrow"><i class="feather-plus"></i></span>
-            </a>
-          </div>
-          <div class="menu-dropdown product-menu collapse" id="mob-cosmetic">
-            <ul class="ul">
-              <li class="productlink-li">
-                <div class="productlink-title">
-                  <a href="#productsup-vega1" data-bs-toggle="collapse" class="sp-link-title">
-                    <span>Shop page</span>
-                    <span class="menu-arrow"><i class="feather-plus"></i></span>
-                  </a>
-                </div>
-                <ul class="productsupmenu-dropdown collapse" id="productsup-vega1">
-                  <li class="productsupmenu-li">
-                    <a href="collection-without.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection left</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-right.htm" class="productsuplink-title">
-                      <span class="sp-link-title">Collection right</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-list-without.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="collection-list.html" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list lef</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="" class="productsuplink-title">
-                      <span class="sp-link-title">Collection list right</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="productlink-li">
-                <div class="productlink-title">
-                  <a href="#productsup-vega2" data-bs-toggle="collapse" class="sp-link-title">
-                    <span>Product page</span>
-                    <span class="menu-arrow"><i class="feather-plus"></i></span>
-                  </a>
-                </div>
-                <ul class="productsupmenu-dropdown collapse" id="productsup-vega2">
-                  <li class="productsupmenu-li">
-                    <a href="product-template.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product layout</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template2.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product tab</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template3.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product advanc</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template4.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product advance</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template5.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product accordion</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template6.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product center</span>
-                    </a>
-                  </li>
-                  <li class="productsupmenu-li">
-                    <a href="product-template7.html" class="productsuplink-title">
-                      <span class="sp-link-title">Product side</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="collection.html" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu4.jpg" class="img-fluid" alt="cate-menu4">
-                <span>Wifro camera</span>
-              </span>
-            </a>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="collection.html" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu5.jpg" class="img-fluid" alt="cate-menu5">
-                <span>Bluetooth earbuds</span>
-              </span>
-            </a>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="collection.html" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu6.jpg" class="img-fluid" alt="cate-menu6">
-                <span>Projector leptop</span>
-              </span>
-            </a>
-          </div>
-        </li>
-        <li class="menu-link">
-          <div class="link-title">
-            <a href="collection.html" class="sp-link-title">
-              <span class="menu-img-icon">
-                <img src="img/menu/cate-menu7.jpg" class="img-fluid" alt="cate-menu7">
-                <span>Wireless mouse</span>
-              </span>
-            </a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+
 <!-- vega-mobile end -->
 <!-- mobile-menu start -->
-<div class="mobile-menu" id="mobile-menu">
-  <div class="mobile-contents">
-    <div class="menu-close">
-      <button class="menu-close-btn">
-        <span class="menu-close-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span>
-      </button>
-    </div>
-    <div class="mobilemenu-content">
-      <div class="main-wrap">
-        <ul class="main-menu">
-          <li class="menu-link">
-            <a href="#menu-single" class="link-title" data-bs-toggle="collapse" aria-expanded="false">
-              <span class="sp-link-title">Home</span>
-              <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-            </a>
-            <div class="menu-dropdown menu-single collapse" id="menu-single">
-              <ul class="ul">
-                <li class="menusingle-li">
-                  <a href="index.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 01</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index2.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 02</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index3.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 03</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index4.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 04</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index5.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 05</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index6.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 06</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index7.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 07</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index8.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 08</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="index9.html" class="menusingle-title">
-                    <span class="sp-link-title">Home 09</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-link">
-            <a href="#menu-shop-banner" class="link-title" data-bs-toggle="collapse" aria-expanded="false">
-              <span class="sp-link-title">Shop</span>
-              <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-            </a>
-            <div class="menu-dropdown menu-banner collapse" id="menu-shop-banner">
-              <ul class="container ul p-0">
-                <li class="menubanner-li">
-                  <div class="menubanner-img">
-                    <a href="collection.html" class="collection-img banner-hover">
-                      <img src="img/menu/home1-menu-banner1.jpg"  class="img-fluid" alt="menu-banner1">
-                    </a>
-                    <a href="collection.html" class="collection-title">
-                      <span>Wireless earbuds</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="menubanner-li">
-                  <div class="menubanner-img">
-                    <a href="collection.html" class="collection-img banner-hover">
-                      <img src="img/menu/home1-menu-banner2.jpg" class="img-fluid" alt="menu-banner2">
-                    </a>
-                    <a href="collection.html" class="collection-title">
-                      <span>Portable speaker</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="menubanner-li">
-                  <div class="menubanner-img">
-                    <a href="collection.html" class="collection-img banner-hover">
-                      <img src="img/menu/home1-menu-banner3.jpg" class="img-fluid" alt="menu-banner3">
-                    </a>
-                    <a href="collection.html" class="collection-title">
-                      <span>Air conditioner</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="menubanner-li">
-                  <div class="menubanner-img">
-                    <a href="collection.html" class="collection-img banner-hover">
-                      <img src="img/menu/home1-menu-banner4.jpg" class="img-fluid" alt="menu-banner4">
-                    </a>
-                    <a href="collection.html" class="collection-title">
-                      <span>Ev charging plug</span>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-link">
-            <a href="#menu-mega" class="link-title" data-bs-toggle="collapse" aria-expanded="false">
-              <span class="sp-link-title">Product</span>
-              <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-            </a>
-            <div class="menu-dropdown menu-mega collapse" id="menu-mega">
-              <ul class="ul container p-0">
-                <li class="menumega-li">
-                  <a href="#menumega-sup1" class="menumega-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">Shop page</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menumegasup-dropdown collapse" id="menumega-sup1">
-                    <ul class="menumegasup-ul">
-                      <li class="menumegasup-li">
-                        <a href="collection-without.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="collection.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection left</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="collection-right.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection right</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="collection-list-without.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection list</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="collection-list.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection list left</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="collection-list-right.html" class="menumegasup-title">
-                          <span class="sp-link-title">Collection list right</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menumega-li">
-                  <a href="#menumega-sup2" class="menumega-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">Product page</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menumegasup-dropdown collapse" id="menumega-sup2">
-                    <ul class="menumegasup-ul">
-                      <li class="menumegasup-li">
-                        <a href="product-template.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product layout</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template2.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product tab</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template3.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product advance</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template4.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product accordion</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template5.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product center</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template6.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product sticky</span>
-                        </a>
-                      </li>
-                      <li class="menumegasup-li">
-                        <a href="product-template7.html" class="menumegasup-title">
-                          <span class="sp-link-title">Product side</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menumega-li">
-                  <div class="menu-product">
-                    <ul class="menumegasup-ul">
-                      <li class="menumegasup-li">
-                        <div class="product-menu-list">
-                          <div class="single-product-wrap">
-                            <div class="product-image">
-                              <a href="product-template.html" class="pro-img">
-                                <img class="img-fluid img1" src="img/menu/home-pro-banner1.jpg" alt="menupro-1">
-                                <img class="img-fluid img2" src="img/menu/home-pro-banner2.jpg" alt="menupro-2">
-                              </a>
-                            </div>
-                            <div class="product-content">
-                              <h6><a href="product-template.html">Portable speaker</a></h6>
-                              <div class="price-box">
-                                <span class="new-price">$25.00</span>
-                                <span class="old-price">$45.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="menumegasup-li">
-                        <div class="product-menu-list">
-                          <div class="single-product-wrap">
-                            <div class="product-image">
-                              <a href="product-template.html" class="pro-img">
-                                <img class="img-fluid img1" src="img/menu/home-pro-banner3.jpg" alt="menupro-3">
-                                <img class="img-fluid img2" src="img/menu/home-pro-banner4.jpg" alt="menupro-4">
-                              </a>
-                            </div>
-                            <div class="product-content">
-                              <h6><a href="product-template.html">Bluetooth</a></h6>
-                              <div class="price-box">
-                                <span class="new-price">$11.00</span>
-                                <span class="old-price">$19.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="menu-product-btn">
-                      <a href="collection.html" class="menu-pro-link">See more<i class="bi bi-chevron-right"></i></a>
-                    </div>
-                  </div>
-                </li>
-                <li class="menumega-li">
-                  <div class="menu-product">
-                    <ul class="menumegasup-ul">
-                      <li class="menumegasup-li">
-                        <div class="product-menu-list">
-                          <div class="single-product-wrap">
-                            <div class="product-image">
-                              <a href="product-template.html" class="pro-img">
-                                <img class="img-fluid img1" src="img/menu/home-pro-banner5.jpg" alt="menupro-1">
-                                <img class="img-fluid img2" src="img/menu/home-pro-banner6.jpg" alt="menupro-2">
-                              </a>
-                            </div>
-                            <div class="product-content">
-                              <h6><a href="product-template.html">Headphones</a></h6>
-                              <div class="price-box">
-                                <span class="new-price">$21.00</span>
-                                <span class="old-price">$25.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="menumegasup-li">
-                        <div class="product-menu-list">
-                          <div class="single-product-wrap">
-                            <div class="product-image">
-                              <a href="product-template.html" class="pro-img">
-                                <img class="img-fluid img1" src="img/menu/home-pro-banner7.jpg" alt="menupro-3">
-                                <img class="img-fluid img2" src="img/menu/home-pro-banner8.jpg" alt="menupro-4">
-                              </a>
-                            </div>
-                            <div class="product-content">
-                              <h6><a href="product-template.html">Shoot drone</a></h6>
-                              <div class="price-box">
-                                <span class="new-price">$69.00</span>
-                                <span class="old-price">$89.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="menu-product-btn">
-                      <a href="collection.html" class="menu-pro-link">See more<i class="bi bi-chevron-right"></i></a>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-link">
-            <a href="#menu-blog" class="link-title" data-bs-toggle="collapse" aria-expanded="false">
-              <span class="sp-link-title">Blog</span>
-              <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-            </a>
-            <div class="menu-dropdown menu-single collapse" id="menu-blog">
-              <ul class="ul">
-                <li class="menusingle-li">
-                  <a href="blog-grid-without.html" class="menusingle-title">
-                    <span class="sp-link-title">Blog grid</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="blog-grid.html" class="menusingle-title">
-                    <span class="sp-link-title">Blog grid left</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="blog-grid-right.html" class="menusingle-title">
-                    <span class="sp-link-title">Blog grid right</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="article-post-without.html" class="menusingle-title">
-                    <span class="sp-link-title">Article post</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="article-post.html" class="menusingle-title">
-                    <span class="sp-link-title">Article post left</span>
-                  </a>
-                </li>
-                <li class="menusingle-li">
-                  <a href="article-post-right.html" class="menusingle-title">
-                    <span class="sp-link-title">Article post right</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-link">
-            <a href="contact-us.html" class="link-title">
-              <span class="sp-link-title">Contact us</span>
-            </a>
-          </li>
-          <li class="menu-link">
-            <a href="#menu-sub" class="link-title" data-bs-toggle="collapse" aria-expanded="false">
-              <span class="sp-link-title">Page</span>
-              <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-            </a>
-            <div class="menu-dropdown menu-sub collapse" id="menu-sub">
-              <ul class="ul">
-                <li class="menusub-li">
-                  <a href="#menu-sup" class="menusub-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">About us</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menusup-dropdown collapse" id="menu-sup">
-                    <ul class="menusup-ul">
-                      <li class="menusup-li">
-                        <a href="about-us.html" class="menusup-title">
-                          <span class="sp-link-title">About us</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="about-us-2.html" class="menusup-title">
-                          <span class="sp-link-title">About us 2</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="about-us-3.html" class="menusup-title">
-                          <span class="sp-link-title">About us 3</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menusub-li">
-                  <a href="#account" class="menusub-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">My account</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menusup-dropdown collapse" id="account">
-                    <ul class="menusup-ul">
-                      <li class="menusup-li">
-                        <a href="order-history.html" class="menusup-title">
-                          <span class="sp-link-title">Order</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="profile.html" class="menusup-title">
-                          <span class="sp-link-title">Profile</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="pro-address.html" class="menusup-title">
-                          <span class="sp-link-title">Address</span>
-                        </a>
-                      </li>
-
-                      <li class="menusup-li">
-                        <a href="pro-tickets.html" class="menusup-title">
-                          <span class="sp-link-title">My tickets</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="billing-info.html" class="menusup-title">
-                          <span class="sp-link-title">Billing info</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="track-page.html" class="menusup-title">
-                          <span class="sp-link-title">Track page</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="order-complete.html" class="menusup-title">
-                          <span class="sp-link-title">Order complete</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menusub-li">
-                  <a href="#menu-sup-contact" class="menusub-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">Contact us</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menusup-dropdown collapse" id="menu-sup-contact">
-                    <ul class="menusup-ul">
-                      <li class="menusup-li">
-                        <a href="contact-us.html" class="menusup-title">
-                          <span class="sp-link-title">Contact us</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="contact-us-2.html" class="menusup-title">
-                          <span class="sp-link-title">Contact us 2</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menusub-li">
-                  <a href="#desk-checkout" class="menusub-title" data-bs-toggle="collapse" aria-expanded="false">
-                    <span class="sp-link-title">Checkout</span>
-                    <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
-                  </a>
-                  <div class="menusup-dropdown collapse" id="desk-checkout">
-                    <ul class="menusup-ul">
-                      <li class="menusup-li">
-                        <a href="checkout-style1.html" class="menusup-title">
-                          <span class="sp-link-title">Checkout style 1</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="checkout-style2.html" class="menusup-title">
-                          <span class="sp-link-title">Checkout style 2</span>
-                        </a>
-                      </li>
-                      <li class="menusup-li">
-                        <a href="checkout-style3.html" class="menusup-title">
-                          <span class="sp-link-title">Checkout style 3</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menusub-li">
-                  <a href="faq.html" class="menusub-title">
-                    <span class="sp-link-title">Faq's</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="privacy-policy.html" class="menusub-title">
-                    <span class="sp-link-title">Privacy policy</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="payment-policy.html" class="menusub-title">
-                    <span class="sp-link-title">Payment policy</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="terms-condition.html" class="menusub-title">
-                    <span class="sp-link-title">Terms &amp; condition</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="return-policy.html" class="menusub-title">
-                    <span class="sp-link-title">Return policy</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="404.html" class="menusub-title">
-                    <span class="sp-link-title">404</span>
-                  </a>
-                </li>
-                <li class="menusub-li">
-                  <a href="coming-soon.html" class="menusub-title">
-                    <span class="sp-link-title">Coming soon</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-link">
-            <a href="https://themeforest.net/user/spacingtech_webify/portfolio" class="link-title">
-              <span class="sp-link-title">Buy electon</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="mobile-social">
-        <div class="mob-wrap mob-social">
-          <ul class="social-icon">
-            <!-- facebook-icon start -->
-            <li>
-              <a href="https://www.facebook.com/">
-                <span class="icon-social facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></span>
-                <span>90K Followers</span>
-              </a>
-            </li>
-            <!-- facebook-icon end -->
-            <!-- insta-icon start -->
-            <li>
-              <a href="https://in.pinterest.com/">
-                <span class="icon-social pinterest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></span>
-                <span>60K Followers</span>
-              </a>
-            </li>
-            <!-- insta-icon end -->
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- mobile-menu end -->
 <!-- search-modal start -->
 <div class="modal fade" id="searchmodal">
