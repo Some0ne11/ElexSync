@@ -448,8 +448,6 @@
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
                                                         <span class="new-price">RM 1,500.00</span>
-                                                        <span class="compare-icon">~</span>
-                                                        <span class="old-price">RM 2,000.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -635,8 +633,6 @@
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
                                                         <span class="new-price">RM 1,300.00</span>
-                                                        <span class="compare-icon">~</span>
-                                                        <span class="old-price">RM 1,500.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -700,8 +696,6 @@
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
                                                         <span class="new-price">RM 500.00</span>
-                                                        <span class="compare-icon">~</span>
-                                                        <span class="old-price">RM 1,250.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -762,8 +756,6 @@
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
                                                         <span class="new-price">RM 1,500.00</span>
-                                                        <span class="compare-icon">~</span>
-                                                        <span class="old-price">RM 2,500.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -827,8 +819,6 @@
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
                                                         <span class="new-price">RM 1,200.00</span>
-                                                        <span class="compare-icon">~</span>
-                                                        <span class="old-price">$RM ,750.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">

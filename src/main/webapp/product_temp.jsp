@@ -12,16 +12,11 @@
     <%@include file="./components/head.html"%>
 </head>
 <body>
-<!-- notification-bar start -->
-
-<!-- notification-bar end -->
 <!-- header start -->
 <%@include file="./components/header.html"%>
 <!-- header end -->
 <!-- main section start-->
 <main>
-    <!-- breadcrumb start -->
-    <!-- breadcrumb end -->
     <!-- pro-detail-page start -->
     <section class="product-details-page pro-style7 bg-color section-ptb">
         <div class="container">
