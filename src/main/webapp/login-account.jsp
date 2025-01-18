@@ -11,7 +11,12 @@
   <!-- title -->
   <title>The ElexSync</title>
   <%@include file="./components/head.html"%>
+<<<<<<< HEAD
+  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+
+=======
   <link rel="stylesheet" type="text/css" href="css/style.css">
+>>>>>>> 3241d25b8c51963efc3f22df7c271d938cd35262
 </head>
 <body>
 <%@include file="./components/notification-bar.html"%>
