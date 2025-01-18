@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-=======
->>>>>>> 4d4fb59caf5ba46574b6a51f0e045cf89d8f0814
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-<<<<<<< HEAD
   <meta name="description" content="A best stylish, creative, modern responsive template for different eCommerce business or industries." />
   <meta name="keywords" content="food template, bakery products, html, eCommerce html template,plants, organic food, restaurant, live tree, responsive, pizza, burger, furniture, mobile, watches, electronics, computers accessories, toys, jewellery, restaurant accessories" />
   <meta name="author" content="spacingtech_webify">
@@ -14,47 +10,11 @@
   <!-- title -->
   <title>The ElexSync</title>
   <%@include file="./components/head.html"%>
-  <link rel="stylesheet" type="text/css" href="./css/style2.css">
-
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <%@include file="./components/notification-bar.html"%>
 <%@include file="./components/header.html"%>
-=======
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- title -->
-  <title>ElecSynx - Login Account</title>
-  <!-- favicon -->
-  <link rel="icon" type="image/x-icon" href="./img/favicon/favicon.png">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap-icons.css">
-  <!-- magnific-popup css -->
-  <link rel="stylesheet" type="text/css" href="./css/magnific-popup.css">
-  <!-- fontawesome css -->
-  <link rel="stylesheet" type="text/css" href="./css/all.min.css">
-  <!--fether css -->
-  <link rel="stylesheet" type="text/css" href="./css/feather.css">
-  <!-- animate css -->
-  <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
-  <!-- owl-carousel css -->
-  <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/owl.theme.default.min.css">
-  <!-- swiper css -->
-  <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
-  <!-- slick slider css -->
-  <link rel="stylesheet" type="text/css" href="./css/slick.css">
-  <!-- collection css -->
-  <link rel="stylesheet" type="text/css" href="./css/collection.css">
-  <!-- blog css -->
-  <link rel="stylesheet" type="text/css" href="./css/blog.css">
-  <!-- other-pages css -->
-  <link rel="stylesheet" type="text/css" href= "./css/other-pages.css">
-  <!-- product-page css -->
-  <link rel="stylesheet" type="text/css" href="./css/product-page.css">
-  <!-- style css -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
 <body>
 <!-- notification-bar start -->
 <div class="notification-bar">
