@@ -12,7 +12,7 @@ import java.io.IOException;
 @WebServlet (name="HomepageServlet", urlPatterns = "/home")
 public class HomepageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/collection.jsp").forward(request, response);
+        getServletContext().getRequestDispatcher("/product_temp.jsp").forward(request, response);
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
