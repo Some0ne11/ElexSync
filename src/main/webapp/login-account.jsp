@@ -14,7 +14,7 @@
   <!-- title -->
   <title>The ElexSync</title>
   <%@include file="./components/head.html"%>
-  <link rel="stylesheet" type="text/css" href="./css/style2.css">
+  <link rel="stylesheet" type="text/css" href="css/homepage.css">
 
 </head>
 <body>
