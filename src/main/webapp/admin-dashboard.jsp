@@ -178,7 +178,9 @@
 <div class="main-content">
     <div class="header">
         <h1>Dashboard Overview</h1>
-        <button style="padding: 10px 20px; background-color: #e74c3c; color: white; border: none; border-radius: 5px;">Logout</button>
+        <button style="padding: 10px 20px; background-color: #e74c3c; color: white; border: none; border-radius: 5px;">
+            Logout
+        </button>
     </div>
 
     <!-- Total Users Content -->
