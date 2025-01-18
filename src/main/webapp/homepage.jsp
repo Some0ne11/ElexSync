@@ -96,9 +96,9 @@
                         <div class="slider-text-content">
                             <div class="slider-text-info slider-content-right slider-text-right">
                                 <div class="slider-subtitle">
-                                    <span>Just fabulous hair</span>
+                                    <span>Best quality audio</span>
                                 </div>
-                                <h2><span>Prove it yourself</span></h2>
+                                <h2><span>Listen close to the waves</span></h2>
                                 <a href="collection.html" class="btn btn-style">Explore now</a>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                                     <div class="cate-info">
                                         <div class="cate-text">
                                             <span class="cate-subtitle" data-animate="animate__fadeInUp">Electronics / gaming</span>
-                                            <h2 class="cate-title" data-animate="animate__fadeInUp">Play station 5</h2>
+                                            <h2 class="cate-title" data-animate="animate__fadeInUp">Play Station 5</h2>
                                             <h2 class="cate-price" data-animate="animate__fadeInUp">RM 2500.00</h2>
                                         </div>
                                         <div class="cate-button" data-animate="animate__fadeInUp">
@@ -170,7 +170,7 @@
                                             <img src="img/cart/demo9-cart3.jpg" class="img-fluid" alt="cart3">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Laptop</a>
+                                            <a href="collection.html" class="cate-title">Laptops</a>
                                             <span class="cate-price">RM 3100.00</span>
                                         </div>
                                     </div>
@@ -181,7 +181,7 @@
                                             <img src="img/cart/demo9-cart4.jpg" class="img-fluid" alt="cart4">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Smart watch</a>
+                                            <a href="collection.html" class="cate-title">Smart Watch</a>
                                             <span class="cate-price">RM 149.00</span>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@
                                             <img src="img/cart/demo9-bgcart.jpg" class="img-fluid" alt="home9-bgcart">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Iphone 14 Pro max</a>
+                                            <a href="collection.html" class="cate-title">Samsung Galaxy S24 Ultra</a>
                                             <span class="cate-price">RM 3499.00</span>
                                         </div>
                                     </div>
