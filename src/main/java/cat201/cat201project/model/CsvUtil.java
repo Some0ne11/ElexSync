@@ -7,8 +7,8 @@ import java.util.*;
 
 public class CsvUtil {
 
-    private static final String USER_CSV = "C:\\Users\\user\\OneDrive\\Documents\\Java Server Page (JSP)\\cat201-project\\src\\main\\resources\\users.csv";
-    private static final String ITEM_CSV = "C:\\Users\\user\\OneDrive\\Documents\\Java Server Page (JSP)\\cat201-project\\src\\main\\resources\\items.csv";
+    private static final String USER_CSV = "C:\\Users\\USER\\Documents\\ElexSync\\src\\main\\resources\\users.csv";
+    private static final String ITEM_CSV = "C:\\Users\\USER\\Documents\\ElexSync\\src\\main\\resources\\items.csv";
     private static ServletContext servletContext;
 
     public static void init(ServletContext context) {

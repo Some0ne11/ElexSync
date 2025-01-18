@@ -3,9 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="A best stylish, creative, modern responsive template for different eCommerce business or industries." />
-    <meta name="keywords" content="food template, bakery products, html, eCommerce html template,plants, organic food, restaurant, live tree, responsive, pizza, burger, furniture, mobile, watches, electronics, computers accessories, toys, jewellery, restaurant accessories" />
-    <meta name="author" content="spacingtech_webify">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- title -->
     <title>Electon - cart empty</title>
@@ -667,7 +664,6 @@
 </main>
 <!-- main section end-->
 
-
 <!-- search-modal start -->
 <div class="modal fade" id="searchmodal">
     <div class="modal-dialog">
@@ -1174,7 +1170,6 @@
     </ul>
 </div>
 <!-- bottom-menu end -->
-<!-- jquery js -->
 <%@include file="./components/footers.html"%>
 <%@include file="./components/scripts.html"%>
 </html>
