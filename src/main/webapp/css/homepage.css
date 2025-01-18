@@ -605,7 +605,7 @@ textarea:active {
     }
 }
 /************************************* header-menu css end *****************************************/
-..header-bottom .main-navigation .navbar-collapse .header-menu {
+.header-bottom .main-navigation .navbar-collapse .header-menu {
     position: relative;
 } 
 .header-menu a.header-info {

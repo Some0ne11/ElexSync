@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="spacingtech_webify">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- title -->
     <title>ElexSync - The Electronics eCommerce</title>
@@ -23,7 +22,7 @@
                         </div>
                         <div class="popup-wrap  popup-text-news">
                             <div class="popup-text">
-                                <h2>Newsletter</h2>
+                                <h2>Now</h2>
                                 <p>Sign up here to get 20% off on your next purchase, special offers and other discount information.</p>
                             </div>
                             <div class="popup-newsletter">
@@ -132,7 +131,7 @@
                                         <div class="cate-text">
                                             <span class="cate-subtitle" data-animate="animate__fadeInUp">Electronics / gaming</span>
                                             <h2 class="cate-title" data-animate="animate__fadeInUp">Play station 5</h2>
-                                            <h2 class="cate-price" data-animate="animate__fadeInUp">$599</h2>
+                                            <h2 class="cate-price" data-animate="animate__fadeInUp">RM 2500.00</h2>
                                         </div>
                                         <div class="cate-button" data-animate="animate__fadeInUp">
                                             <a href="collection.html" class="cate-btn"><i class="fa-solid fa-arrow-right"></i></a>
@@ -150,7 +149,7 @@
                                         </a>
                                         <div class="cate-text-price">
                                             <a href="collection.html" class="cate-title">Headphones</a>
-                                            <span class="cate-price">$ 249.00</span>
+                                            <span class="cate-price">RM 250.00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -161,7 +160,7 @@
                                         </a>
                                         <div class="cate-text-price">
                                             <a href="collection.html" class="cate-title">Earbuds</a>
-                                            <span class="cate-price">$ 89.00</span>
+                                            <span class="cate-price">RM 89.00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -172,7 +171,7 @@
                                         </a>
                                         <div class="cate-text-price">
                                             <a href="collection.html" class="cate-title">Laptop</a>
-                                            <span class="cate-price">$ 199.00</span>
+                                            <span class="cate-price">RM 3100.00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -183,7 +182,7 @@
                                         </a>
                                         <div class="cate-text-price">
                                             <a href="collection.html" class="cate-title">Smart watch</a>
-                                            <span class="cate-price">$ 149.00</span>
+                                            <span class="cate-price">RM 149.00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -193,8 +192,8 @@
                                             <img src="img/cart/demo9-bgcart.jpg" class="img-fluid" alt="home9-bgcart">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">14 Pro max</a>
-                                            <span class="cate-price">$ 24.00</span>
+                                            <a href="collection.html" class="cate-title">Iphone 14 Pro max</a>
+                                            <span class="cate-price">RM 3499.00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -259,9 +258,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$1,500.00</span>
+                                                        <span class="new-price">RM 150.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$1,650.00</span>
+                                                        <span class="old-price">RM 200.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -320,13 +319,13 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Mixer grinder</a></h6>
+                                                    <h6><a href="product-template2.html">Ipad</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$1,700.00</span>
+                                                        <span class="new-price">RM 1,700.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$2,300.00</span>
+                                                        <span class="old-price">RM 2,300.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -382,13 +381,13 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Horizon book</a></h6>
+                                                    <h6><a href="product-template2.html">Mac book</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$3,400.00</span>
+                                                        <span class="new-price">RM 3,000.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$5,900.00</span>
+                                                        <span class="old-price">RM 5,000.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -448,9 +447,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$8,000.00</span>
+                                                        <span class="new-price">RM 1,500.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$9,000.00</span>
+                                                        <span class="old-price">RM 2,000.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -510,9 +509,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$4,999.00</span>
+                                                        <span class="new-price">RM 300.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$7,800.00</span>
+                                                        <span class="old-price">RM 500.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -635,9 +634,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$1,022.00</span>
+                                                        <span class="new-price">RM 1,300.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$2,500.00</span>
+                                                        <span class="old-price">RM 1,500.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -700,9 +699,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$560.00</span>
+                                                        <span class="new-price">RM 500.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$1,250.00</span>
+                                                        <span class="old-price">RM 1,250.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -762,9 +761,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$1,500.00</span>
+                                                        <span class="new-price">RM 1,500.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$2,500.00</span>
+                                                        <span class="old-price">RM 2,500.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -827,9 +826,9 @@
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
-                                                        <span class="new-price">$1,200.00</span>
+                                                        <span class="new-price">RM 1,200.00</span>
                                                         <span class="compare-icon">~</span>
-                                                        <span class="old-price">$1,750.00</span>
+                                                        <span class="old-price">$RM ,750.00</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-ratting">
@@ -969,10 +968,6 @@
                                                         <span class="product-label-title">New</span>
                                                     </div>
                                                     <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
                                                         <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                             <span class="tooltip-text">Quickview</span>
                                                             <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -998,13 +993,13 @@
                                                     </div>
                                                     <div class="product-price">
                                                         <div class="pro-price-box">
-                                                            <span class="new-price">$19,500.00</span>
+                                                            <span class="new-price">RM 2,500.00</span>
                                                             <span class="compare-icon">~</span>
-                                                            <span class="old-price">$32,500.00</span>
+                                                            <span class="old-price">RM 3,500.00</span>
                                                         </div>
                                                     </div>
                                                     <div class="product-description">
-                                                        <p>More detail Lorem ipsum is simply dummy text of the...</p>
+                                                        <p>Enjoy seamless gaming with powerful performance and immersive visuals.</p>
                                                     </div>
                                                     <div class="timer-section">
                                                         <ul class="clock" id="clock1">
@@ -1042,20 +1037,7 @@
                                                             <!-- deal second end -->
                                                         </ul>
                                                     </div>
-                                                    <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
-                                                        <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                                            <span class="tooltip-text">Quickview</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
-                                                        </a>
-                                                        <a href="javascript:void(0)" class="add-to-cart">
-                                                            <span class="tooltip-text">Add to cart</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span>
-                                                        </a>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1072,10 +1054,6 @@
                                                         <span class="product-label-title">New</span>
                                                     </div>
                                                     <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
                                                         <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                             <span class="tooltip-text">Quickview</span>
                                                             <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -1101,13 +1079,14 @@
                                                     </div>
                                                     <div class="product-price">
                                                         <div class="pro-price-box">
-                                                            <span class="new-price">$965.00</span>
+                                                            <span class="new-price">RM 500.00</span>
                                                             <span class="compare-icon">~</span>
-                                                            <span class="old-price">$1,520.00</span>
+                                                            <span class="old-price">RM 1,500.00</span>
                                                         </div>
                                                     </div>
                                                     <div class="product-description">
-                                                        <p>More detail Lorem ipsum is simply dummy text of the...</p>
+                                                        <p>Stay connected and track your fitness goals with integrated
+                                                            smart watch capabilities.</p>
                                                     </div>
                                                     <div class="timer-section">
                                                         <ul class="clock" id="clock2">
@@ -1145,20 +1124,7 @@
                                                             <!-- deal second end -->
                                                         </ul>
                                                     </div>
-                                                    <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
-                                                        <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                                            <span class="tooltip-text">Quickview</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
-                                                        </a>
-                                                        <a href="javascript:void(0)" class="add-to-cart">
-                                                            <span class="tooltip-text">Add to cart</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span>
-                                                        </a>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1204,11 +1170,11 @@
                                                     </div>
                                                     <div class="product-price">
                                                         <div class="pro-price-box">
-                                                            <span class="new-price">$350.00</span>
+                                                            <span class="new-price">RM 350.00</span>
                                                         </div>
                                                     </div>
                                                     <div class="product-description">
-                                                        <p>More detail Lorem ipsum is simply dummy text of the...</p>
+                                                        <p>Store all your important files with ample storage and secure access.</p>
                                                     </div>
                                                     <div class="timer-section">
                                                         <ul class="clock" id="clock3">
@@ -1245,20 +1211,6 @@
                                                             </li>
                                                             <!-- deal second end -->
                                                         </ul>
-                                                    </div>
-                                                    <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
-                                                        <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                                            <span class="tooltip-text">Quickview</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
-                                                        </a>
-                                                        <a href="javascript:void(0)" class="add-to-cart">
-                                                            <span class="tooltip-text">Add to cart</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span>
-                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1305,13 +1257,15 @@
                                                     </div>
                                                     <div class="product-price">
                                                         <div class="pro-price-box">
-                                                            <span class="new-price">$1,000.00</span>
+                                                            <span class="new-price">RM 1,000.00</span>
                                                             <span class="compare-icon">~</span>
-                                                            <span class="old-price">$1,650.00</span>
+                                                            <span class="old-price">RM 1,500.00</span>
                                                         </div>
                                                     </div>
                                                     <div class="product-description">
-                                                        <p>More detail Lorem ipsum is simply dummy text of the...</p>
+                                                        <p>Indulge in superior audio quality with wireless
+                                                            connectivity and crystal-clear sound.
+                                                        </p>
                                                     </div>
                                                     <div class="timer-section">
                                                         <ul class="clock" id="clock4">
@@ -1349,20 +1303,7 @@
                                                             <!-- deal second end -->
                                                         </ul>
                                                     </div>
-                                                    <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
-                                                        <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
-                                                            <span class="tooltip-text">Quickview</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
-                                                        </a>
-                                                        <a href="javascript:void(0)" class="add-to-cart">
-                                                            <span class="tooltip-text">Add to cart</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span>
-                                                        </a>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1405,7 +1346,9 @@
                                         <span>Be smart, action camera</span>
                                     </div>
                                     <h2 data-animate="animate__fadeInUp"><span>Laxury AD65 smart go pro</span></h2>
-                                    <p data-animate="animate__fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry's wireless.</p>
+                                    <p data-animate="animate__fadeInUp">Introducing the Luxury AD65 Smart Go Pro, the perfect blend of cutting-edge technology and sophisticated design.
+                                        Engineered for exceptional performance, this device redefines convenience with its smart features and premium build quality.
+                                        Experience innovation like never before with the AD65 Smart Go Pro.</p>
                                     <a href="collection-list.html" class="btn btn-style2" data-animate="animate__fadeInUp">Shop now</a>
                                 </div>
                             </li>
@@ -1430,9 +1373,10 @@
                                             <div class="testi-img-author">
                                                 <span class="testi-img"><img src="img/testi/home9-testi1.jpg" class="img-fluid" alt="testi1"></span>
                                                 <div class="testi-author-pos">
-                                                    <h6 data-animate="animate__fadeInUp"><span>Mr.onsequat</span><span> - Designer</span></h6>
+                                                    <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span><span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
-                                                        <p class="testi-desc-text">Consectetur adipiscing elit donec vitae nunc vel enim tempus fermentum nec ac enim sed egestas faucibus turpis id egestas.</p>
+                                                        <p class="testi-desc-text">I create innovative and functional designs that are visually captivating and
+                                                            user-friendly, tailored to meet diverse needs..</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1443,9 +1387,10 @@
                                             <div class="testi-img-author">
                                                 <span class="testi-img"><img src="img/testi/home9-testi2.jpg" class="img-fluid" alt="testi2"></span>
                                                 <div class="testi-author-pos">
-                                                    <h6 data-animate="animate__fadeInUp"><span>Mr.onsequat</span><span> - Designer</span></h6>
+                                                    <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span><span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
-                                                        <p class="testi-desc-text">Consectetur adipiscing elit donec vitae nunc vel enim tempus fermentum nec ac enim sed egestas faucibus turpis id egestas.</p>
+                                                        <p class="testi-desc-text">I create innovative and functional designs that
+                                                            are visually captivating and user-friendly, tailored to meet diverse needs.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1456,9 +1401,10 @@
                                             <div class="testi-img-author">
                                                 <span class="testi-img"><img src="img/testi/home9-testi3.jpg" class="img-fluid" alt="testi3"></span>
                                                 <div class="testi-author-pos">
-                                                    <h6 data-animate="animate__fadeInUp"><span>Mr.onsequat</span> <span> - Designer</span></h6>
+                                                    <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span> <span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
-                                                        <p class="testi-desc-text">Consectetur adipiscing elit donec vitae nunc vel enim tempus fermentum nec ac enim sed egestas faucibus turpis id egestas.</p>
+                                                        <p class="testi-desc-text">I create innovative and functional designs that are visually captivating and
+                                                            user-friendly, tailored to meet diverse needs.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1471,7 +1417,7 @@
                             <div class="newletter-main">
                                 <div class="newsletter-info">
                                     <div class="news-title">
-                                        <h2  data-animate="animate__fadeInUp" class="news-heading">Sign up for newsletter</h2>
+                                        <h2  data-animate="animate__fadeInUp" class="news-heading">Sign up now</h2>
                                     </div>
                                     <div class="news-contain" data-animate="animate__fadeInUp">
                                         <form class="newsletter">
@@ -1710,7 +1656,7 @@
                                         <a href="javascript:void(0)">Speakers</a>
                                     </div>
                                     <div class="cart-item-price">
-                                        <span class="cart-price">$220.00</span>
+                                        <span class="cart-price">RM 220.00</span>
                                     </div>
                                     <div class="cart-item-variants">
                                         <h6>Color:</h6>
@@ -1747,7 +1693,7 @@
             <div class="drawer-footer">
                 <div class="drawer-total">
                     <span class="drawer-subtotal">Subtotal</span>
-                    <span class="drawer-totalprice">$880.00</span>
+                    <span class="drawer-totalprice">RM 880.00</span>
                 </div>
                 <div class="drawer-ship-text">
                     <span>Shipping, taxes, and discount codes calculated at checkout</span>
@@ -1824,16 +1770,16 @@
                         <div class="pro-nprist">
                             <!-- product-title start -->
                             <div class="product-title">
-                                <span>Electon-store</span>
+                                <span>ElecSync-store</span>
                                 <h6>Boat</h6>
                             </div>
                             <!-- product-title end -->
                             <!-- product-price start -->
                             <div class="product-price">
                                 <div class="pro-price-box">
-                                    <span class="new-price">$237.00</span>
+                                    <span class="new-price">RM 237.00</span>
                                     <span class="compare-icon">~</span>
-                                    <span class="old-price">$250.00</span>
+                                    <span class="old-price">RM 250.00</span>
                                 </div>
                             </div>
                             <!-- product-price end -->
@@ -1850,7 +1796,7 @@
                             <!-- product-rating end -->
                             <!-- product-desc start -->
                             <div class="product-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn</p>
+                                <p>Hi, I'm Loris, a creative web designer passionate about crafting modern and user-friendly websites. Let’s build something great together!</p>
                             </div>
                             <!-- product-desc end -->
                             <form id="add-item-qv" action="/cart/add" method="post">
