@@ -7,8 +7,8 @@ import java.util.*;
 
 public class CsvUtil {
 
-    private static final String USER_CSV = "C:\\Users\\USER\\Documents\\ElexSync\\src\\main\\resources\\users.csv";
-    private static final String ITEM_CSV = "C:\\Users\\USER\\Documents\\ElexSync\\src\\main\\resources\\items.csv";
+    private static final String USER_CSV = "users.csv";
+    private static final String ITEM_CSV = "items.csv";
     private static ServletContext servletContext;
 
     public static void init(ServletContext context) {
@@ -18,7 +18,7 @@ public class CsvUtil {
     // Read users from CSV
     public static List<User> readUsersFromCsv() {
         List<User> users = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(USER_CSV))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getFileInputStream(USER_CSV)))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] data = line.split(",");
@@ -26,7 +26,7 @@ public class CsvUtil {
                 String name = data[1];
                 String email = data[2];
                 String password = data[3];
-                users.add(new User(id, name, email,password));
+                users.add(new User(id, name, email, password));
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -37,7 +37,7 @@ public class CsvUtil {
     // Read items from CSV
     public static List<Item> readItemsFromCsv() {
         List<Item> items = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(ITEM_CSV))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getFileInputStream(ITEM_CSV)))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] data = line.split(",");
@@ -127,10 +127,12 @@ public class CsvUtil {
 
     // Write users back to CSV
     private static void writeUsersToCsv(List<User> users) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(USER_CSV))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(getFilePath(USER_CSV)))) {
             for (User user : users) {
                 writer.write(user.getId() + "," + user.getName() + "," + user.getEmail() + "," + user.getPassword());
                 writer.newLine();
+                String filePath = getFilePath(USER_CSV);
+                System.out.println("Writing users to: " + filePath);  // Log file path
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -139,7 +141,7 @@ public class CsvUtil {
 
     // Write items back to CSV
     private static void writeItemsToCsv(List<Item> items) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(ITEM_CSV))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(getFilePath(ITEM_CSV)))) {
             for (Item item : items) {
                 writer.write(item.getId() + "," + item.getName() + "," + item.getPrice() + "," + item.getQuantity());
                 writer.newLine();
@@ -148,5 +150,14 @@ public class CsvUtil {
             e.printStackTrace();
         }
     }
-}
 
+    // Get input stream for file from classpath
+    private static InputStream getFileInputStream(String fileName) {
+        return CsvUtil.class.getClassLoader().getResourceAsStream(fileName);
+    }
+
+    // Get the file path for writing
+    private static String getFilePath(String fileName) {
+        return servletContext.getRealPath("/WEB-INF/" + fileName);
+    }
+}

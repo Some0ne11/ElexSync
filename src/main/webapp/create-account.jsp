@@ -10,7 +10,6 @@
   <script>
     function showSuccessPopup() {
       alert("Account successfully created! You will be redirected to the login page.");
-      window.location.href = "login-account.jsp";
     }
   </script>
 </head>
@@ -30,7 +29,7 @@
             </div>
             <div class="log-acc-page">
               <div class="contact-form-list">
-                <form method="post" action="createAccountHandler" onsubmit="event.preventDefault(); showSuccessPopup();">
+                <form method="post" action="${pageContext.request.contextPath}/create-account" onsubmit="showSuccessPopup();">
                   <ul class="form-fill">
                     <li class="form-fill-li" data-animate="animate__fadeInUp">
                       <label>Full Name</label>

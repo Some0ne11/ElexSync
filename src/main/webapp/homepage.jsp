@@ -9,44 +9,8 @@
     <%@include file="./components/head.html"%>
 </head>
 <body>
-<!-- popup-wrapper start -->
-<div class="popup-wrapper" id="popup-wrapper">
-    <div class="modal fade" id="mymodal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
-                    <div class="popup-info">
-                        <div class="popup-wrap  popup-image">
-                            <img src="img/popup/popup-8.jpg" class="img-fluid" alt="popup-img">
-                        </div>
-                        <div class="popup-wrap  popup-text-news">
-                            <div class="popup-text">
-                                <h2>Now</h2>
-                                <p>Sign up here to get 20% off on your next purchase, special offers and other discount information.</p>
-                            </div>
-                            <div class="popup-newsletter">
-                                <form  action="/contact#contact_form" method="post" class="contact-form">
-                                    <div class="subscribe-block">
-                                        <input type="email" placeholder="Enter your mail.. " class="email">
-                                        <div class="popup-button">
-                                            <button type="submit" class="btn btn-style popup-btn"><span>Subscribe</span></button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- popup-wrapper end -->
-
 <%@include file="./components/notification-bar.html"%>
 <%@include file="./components/header.html"%>
-
 <!-- main start -->
 <main id="main-content">
     <!-- main-slider start -->
@@ -56,7 +20,7 @@
                 <div class="item">
                     <div class="slider-image-info">
                         <div class="slider-image">
-                            <img src="img/slider/home9-slider1.jpg" class="img-fluid desk-img" alt="slider1">
+                            <img src="img/slider/back_slide3.jpeg" class="img-fluid desk-img" alt="slider1">
                             <img src="img/slider/home9-mobile-slider1.jpg" class="img-fluid mobile-img" alt="mobile-slider1">
                         </div>
                         <div class="slider-text-content">
@@ -65,7 +29,7 @@
                                     <span>For your comfort</span>
                                 </div>
                                 <h2><span>Portable devices</span></h2>
-                                <a href="collection.html" class="btn btn-style">Explore now</a>
+                                <a href="collection.jsp" class="btn btn-style">Explore now</a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +37,7 @@
                 <div class="item">
                     <div class="slider-image-info">
                         <div class="slider-image">
-                            <img src="img/slider/home9-slider2.jpg" class="img-fluid desk-img" alt="slider2">
+                            <img src="img/slider/back_slide1.jpeg" class="img-fluid desk-img" alt="slider2">
                             <img src="img/slider/home9-mobile-slider2.jpg" class="img-fluid mobile-img" alt="mobile-slider2">
                         </div>
                         <div class="slider-text-content">
@@ -82,7 +46,7 @@
                                     <span>Wear the better</span>
                                 </div>
                                 <h2><span>Time is precious</span></h2>
-                                <a href="collection.html" class="btn btn-style">Explore now</a>
+                                <a href="collection.jsp" class="btn btn-style">Explore now</a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +54,7 @@
                 <div class="item">
                     <div class="slider-image-info">
                         <div class="slider-image">
-                            <img src="img/slider/home9-slider3.jpg" class="img-fluid desk-img" alt="slider3">
+                            <img src="img/slider/back_slide2.jpeg" class="img-fluid desk-img" alt="slider3">
                             <img src="img/slider/home9-mobile-slider3.jpg" class="img-fluid mobile-img" alt="mobile-slider3">
                         </div>
                         <div class="slider-text-content">
@@ -99,7 +63,7 @@
                                     <span>Just fabulous hair</span>
                                 </div>
                                 <h2><span>Prove it yourself</span></h2>
-                                <a href="collection.html" class="btn btn-style">Explore now</a>
+                                <a href="collection.jsp" class="btn btn-style">Explore now</a>
                             </div>
                         </div>
                     </div>
@@ -123,8 +87,8 @@
                     <div class="category-wrapper">
                         <div class="category-wrap cate-big-banner">
                             <div class="cate-area">
-                                <a href="collection.html" class="cate-image">
-                                    <img src="img/cart/big-cart.jpg" class="img-fluid" alt="big-cart">
+                                <a href="collection.jsp" class="cate-image">
+                                    <img src="img/cart/ps5-home.jpeg" class="img-fluid" alt="big-cart">
                                 </a>
                                 <div class="cate-content">
                                     <div class="cate-info">
@@ -134,7 +98,7 @@
                                             <h2 class="cate-price" data-animate="animate__fadeInUp">RM 2500.00</h2>
                                         </div>
                                         <div class="cate-button" data-animate="animate__fadeInUp">
-                                            <a href="collection.html" class="cate-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                                            <a href="collection.jsp" class="cate-btn"><i class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -144,55 +108,55 @@
                             <ul class="category-ul">
                                 <li class="category-li cat-1" data-animate="animate__fadeInUp">
                                     <div class="cate-info">
-                                        <a href="collection.html" class="cate-image">
-                                            <img src="img/cart/demo9-cart1.jpg" class="img-fluid" alt="cart1">
+                                        <a href="collection.jsp" class="cate-image">
+                                            <img src="img/cart/JBL-home.jpg" class="img-fluid" alt="cart1">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Headphones</a>
+                                            <a href="collection.jsp" class="cate-title">Headphones</a>
                                             <span class="cate-price">RM 250.00</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="category-li cat-1" data-animate="animate__fadeInUp">
                                     <div class="cate-info">
-                                        <a href="collection.html" class="cate-image">
-                                            <img src="img/cart/demo9-cart2.jpg" class="img-fluid" alt="cart2">
+                                        <a href="collection.jsp" class="cate-image">
+                                            <img src="img/cart/earbud-home.jpg" class="img-fluid" alt="cart2">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Earbuds</a>
+                                            <a href="collection.jsp" class="cate-title">Earbuds</a>
                                             <span class="cate-price">RM 89.00</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="category-li cat-1" data-animate="animate__fadeInUp">
                                     <div class="cate-info">
-                                        <a href="collection.html" class="cate-image">
-                                            <img src="img/cart/demo9-cart3.jpg" class="img-fluid" alt="cart3">
+                                        <a href="collection.jsp" class="cate-image">
+                                            <img src="img/cart/imac-home.jpg" class="img-fluid" alt="cart3">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Laptop</a>
+                                            <a href="collection.jsp" class="cate-title">Laptop</a>
                                             <span class="cate-price">RM 3100.00</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="category-li cat-1" data-animate="animate__fadeInUp">
                                     <div class="cate-info">
-                                        <a href="collection.html" class="cate-image">
-                                            <img src="img/cart/demo9-cart4.jpg" class="img-fluid" alt="cart4">
+                                        <a href="collection.jsp" class="cate-image">
+                                            <img src="img/cart/watch-home.jpg" class="img-fluid" alt="cart4">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Smart watch</a>
+                                            <a href="collection.jsp" class="cate-title">Smart watch</a>
                                             <span class="cate-price">RM 149.00</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="category-li cat-2" data-animate="animate__fadeInUp">
                                     <div class="cate-info">
-                                        <a href="collection.html" class="cate-image">
-                                            <img src="img/cart/demo9-bgcart.jpg" class="img-fluid" alt="home9-bgcart">
+                                        <a href="collection.jsp" class="cate-image">
+                                            <img src="img/cart/iphone-home.jpg" class="img-fluid" alt="home9-bgcart">
                                         </a>
                                         <div class="cate-text-price">
-                                            <a href="collection.html" class="cate-title">Iphone 14 Pro max</a>
+                                            <a href="collection.jsp" class="cate-title">Iphone 14 Pro max</a>
                                             <span class="cate-price">RM 3499.00</span>
                                         </div>
                                     </div>
@@ -230,18 +194,14 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p1.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p2.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/bud1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/bud2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-label pro-new-sale">
                                                     <span class="product-label-title">New</span>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -254,7 +214,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Air buds</a></h6>
+                                                    <h6><a href="collection.jsp">Air buds</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -276,10 +236,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -295,18 +251,14 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p3.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p4.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/ipad1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/ipad2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-label pro-new-sale">
                                                     <span class="product-label-title">New</span>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -319,7 +271,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Ipad</a></h6>
+                                                    <h6><a href="collection.jsp">Ipad</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -341,10 +293,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -360,15 +308,11 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p5.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p6.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/imac1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/imac2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -381,7 +325,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Mac book</a></h6>
+                                                    <h6><a href="collection.jsp">Mac book</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -403,10 +347,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -422,15 +362,11 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p7.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p8.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/marshal1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/marshal2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -443,7 +379,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Party speakers</a></h6>
+                                                    <h6><a href="collection.jsp">Party speakers</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -463,10 +399,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -482,15 +414,11 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p9.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p10.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/rog1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/r0g2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -503,7 +431,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Trimmer</a></h6>
+                                                    <h6><a href="collection.jsp">ROG Ally</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -525,10 +453,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -544,18 +468,14 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p11.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p12.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/drive1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/drive2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-label pro-new-sale">
                                                     <span class="product-label-title">New</span>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -568,7 +488,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Hard drive</a></h6>
+                                                    <h6><a href="collection.jsp">Hard drive</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -588,10 +508,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -607,15 +523,11 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p13.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p14.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/cam1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/cam2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -628,7 +540,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">DSLR camera</a></h6>
+                                                    <h6><a href="collection.jsp">DSLR camera</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -648,10 +560,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -667,18 +575,14 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p15.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p16.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/ear1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/ear2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-label pro-new-sale">
                                                     <span class="product-label-title">New</span>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -691,7 +595,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Wireless earbuds</a></h6>
+                                                    <h6><a href="collection.jsp">Wireless earbuds</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -711,10 +615,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -730,15 +630,11 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p17.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p18.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/game1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/game2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -751,7 +647,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Play game</a></h6>
+                                                    <h6><a href="collection.jsp">Play game</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -771,10 +667,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -790,18 +682,14 @@
                                     <div class="swiper-slide" data-animate="animate__fadeInUp">
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="product-template.html" class="pro-img">
-                                                    <img src="img/product/home9-p19.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                    <img src="img/product/home9-p20.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                <a href="collection.jsp" class="pro-img">
+                                                    <img src="img/product/watch1-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                    <img src="img/product/watch2-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                 </a>
                                                 <div class="product-label pro-new-sale">
                                                     <span class="product-label-title">New</span>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -814,7 +702,7 @@
                                             </div>
                                             <div class="product-content">
                                                 <div class="product-title">
-                                                    <h6><a href="product-template2.html">Smart watch</a></h6>
+                                                    <h6><a href="collection.jsp">Smart watch</a></h6>
                                                 </div>
                                                 <div class="product-price">
                                                     <div class="pro-price-box">
@@ -834,10 +722,6 @@
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                                                 </div>
                                                 <div class="product-action">
-                                                    <a href="wishlist-product.html" class="wishlist">
-                                                        <span class="tooltip-text">Wishlist</span>
-                                                        <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                    </a>
                                                     <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                         <span class="tooltip-text">Quickview</span>
                                                         <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -878,42 +762,42 @@
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo1.png" class="img-fluid" alt="brand-logo7">
+                                                <img src="img/logo/apple-logo.jpg" class="img-fluid" alt="brand-logo7">
                                             </span>
                                 </a>
                             </div>
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo2.png" class="img-fluid" alt="brand-logo8">
+                                                <img src="img/logo/canon-logo.jpg" class="img-fluid" alt="brand-logo8">
                                             </span>
                                 </a>
                             </div>
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo3.png" class="img-fluid" alt="brand-logo9">
+                                                <img src="img/logo/dell-logo.jpg" class="img-fluid" alt="brand-logo9">
                                             </span>
                                 </a>
                             </div>
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo4.png" class="img-fluid" alt="brand-logo10">
+                                                <img src="img/logo/jbl-logo.jpg" class="img-fluid" alt="brand-logo10">
                                             </span>
                                 </a>
                             </div>
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo5.png" class="img-fluid" alt="brand-logo11">
+                                                <img src="img/logo/sea-logo.jpg" class="img-fluid" alt="brand-logo11">
                                             </span>
                                 </a>
                             </div>
                             <div class="item" data-animate="animate__fadeInUp">
                                 <a href="javascript:void(0)">
                                             <span class="brand-img">
-                                                <img src="img/brand-logo/home9-brand-logo6.png" class="img-fluid" alt="brand-logo12">
+                                                <img src="img/logo/sony-logo.jpg" class="img-fluid" alt="brand-logo12">
                                             </span>
                                 </a>
                             </div>
@@ -950,9 +834,9 @@
                                         <div class="product-grid-list">
                                             <div class="single-product-wrap">
                                                 <div class="product-image">
-                                                    <a href="product-template.html" class="pro-img">
-                                                        <img src="img/product/home9-p17.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                        <img src="img/product/home9-p18.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                    <a href="collection.jsp" class="pro-img">
+                                                        <img src="img/product/game2-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                        <img src="img/product/game1-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                     </a>
                                                     <div class="product-label pro-new-sale">
                                                         <span class="product-label-title">New</span>
@@ -970,7 +854,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="product-title">
-                                                        <h6><a href="product-template2.html">Play game</a></h6>
+                                                        <h6><a href="collection.jsp">Play game</a></h6>
                                                     </div>
                                                     <div class="product-ratting">
                                                                 <span class="pro-ratting">
@@ -1036,9 +920,9 @@
                                         <div class="product-grid-list">
                                             <div class="single-product-wrap">
                                                 <div class="product-image">
-                                                    <a href="product-template.html" class="pro-img">
-                                                        <img src="img/product/home9-p19.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                        <img src="img/product/home9-p20.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                    <a href="collection.jsp" class="pro-img">
+                                                        <img src="img/product/watch2-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                        <img src="img/product/watch1-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                     </a>
                                                     <div class="product-label pro-new-sale">
                                                         <span class="product-label-title">New</span>
@@ -1056,7 +940,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="product-title">
-                                                        <h6><a href="product-template2.html">Smart watch</a></h6>
+                                                        <h6><a href="collection.jsp">Smart watch</a></h6>
                                                     </div>
                                                     <div class="product-ratting">
                                                                 <span class="pro-ratting">
@@ -1123,18 +1007,14 @@
                                         <div class="product-grid-list">
                                             <div class="single-product-wrap">
                                                 <div class="product-image">
-                                                    <a href="product-template.html" class="pro-img">
-                                                        <img src="img/product/home9-p11.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                        <img src="img/product/home9-p12.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                    <a href="collection.jsp" class="pro-img">
+                                                        <img src="img/product/drive2-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                        <img src="img/product/drive1-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                     </a>
                                                     <div class="product-label pro-new-sale">
                                                         <span class="product-label-title">New</span>
                                                     </div>
                                                     <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
                                                         <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                             <span class="tooltip-text">Quickview</span>
                                                             <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -1147,7 +1027,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="product-title">
-                                                        <h6><a href="product-template2.html">Hard drive</a></h6>
+                                                        <h6><a href="collection.jsp">Hard drive</a></h6>
                                                     </div>
                                                     <div class="product-ratting">
                                                                 <span class="pro-ratting">
@@ -1210,18 +1090,14 @@
                                         <div class="product-grid-list">
                                             <div class="single-product-wrap">
                                                 <div class="product-image">
-                                                    <a href="product-template.html" class="pro-img">
-                                                        <img src="img/product/home9-p1.jpg" class="img-fluid img1 mobile-img1" alt="p1">
-                                                        <img src="img/product/home9-p2.jpg" class="img-fluid img2 mobile-img2" alt="p2">
+                                                    <a href="collection.jsp" class="pro-img">
+                                                        <img src="img/product/ear2-home.png" class="img-fluid img1 mobile-img1" alt="p1">
+                                                        <img src="img/product/ear1-home.png" class="img-fluid img2 mobile-img2" alt="p2">
                                                     </a>
                                                     <div class="product-label pro-new-sale">
                                                         <span class="product-label-title">New</span>
                                                     </div>
                                                     <div class="product-action">
-                                                        <a href="wishlist-product.html" class="wishlist">
-                                                            <span class="tooltip-text">Wishlist</span>
-                                                            <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                                        </a>
                                                         <a href="#quickview" class="quickview" data-bs-toggle="modal" data-bs-target="#quickview">
                                                             <span class="tooltip-text">Quickview</span>
                                                             <span class="pro-action-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
@@ -1234,7 +1110,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="product-title">
-                                                        <h6><a href="product-template2.html">Air buds</a></h6>
+                                                        <h6><a href="collection.jsp">Air buds</a></h6>
                                                     </div>
                                                     <div class="product-ratting">
                                                                 <span class="pro-ratting">
@@ -1326,7 +1202,7 @@
                             <li class="home-about-li about-img-block">
                                 <div class="home-about-banner">
                                             <span class="home-about-img">
-                                                <img src="img/about/home9-about-banner.jpg" class="img-fluid" alt="about-banner">
+                                                <img src="img/product/laxury-home.jpg" class="img-fluid" alt="about-banner">
                                             </span>
                                 </div>
                             </li>
@@ -1339,7 +1215,7 @@
                                     <p data-animate="animate__fadeInUp">Introducing the Luxury AD65 Smart Go Pro, the perfect blend of cutting-edge technology and sophisticated design.
                                         Engineered for exceptional performance, this device redefines convenience with its smart features and premium build quality.
                                         Experience innovation like never before with the AD65 Smart Go Pro.</p>
-                                    <a href="collection-list.html" class="btn btn-style2" data-animate="animate__fadeInUp">Shop now</a>
+                                    <a href="collection.jsp" class="btn btn-style2" data-animate="animate__fadeInUp">Shop now</a>
                                 </div>
                             </li>
                         </ul>
@@ -1361,7 +1237,7 @@
                                     <div class="item">
                                         <div class="testi-info-wrap">
                                             <div class="testi-img-author">
-                                                <span class="testi-img"><img src="img/testi/home9-testi1.jpg" class="img-fluid" alt="testi1"></span>
+                                                <span class="testi-img"><img src="img/product/lucy.jpg" class="img-fluid" alt="testi1"></span>
                                                 <div class="testi-author-pos">
                                                     <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span><span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
@@ -1375,7 +1251,7 @@
                                     <div class="item">
                                         <div class="testi-info-wrap">
                                             <div class="testi-img-author">
-                                                <span class="testi-img"><img src="img/testi/home9-testi2.jpg" class="img-fluid" alt="testi2"></span>
+                                                <span class="testi-img"><img src="img/product/lucy.jpg" class="img-fluid" alt="testi2"></span>
                                                 <div class="testi-author-pos">
                                                     <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span><span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
@@ -1389,7 +1265,7 @@
                                     <div class="item">
                                         <div class="testi-info-wrap">
                                             <div class="testi-img-author">
-                                                <span class="testi-img"><img src="img/testi/home9-testi3.jpg" class="img-fluid" alt="testi3"></span>
+                                                <span class="testi-img"><img src="img/product/lucy.jpg" class="img-fluid" alt="testi3"></span>
                                                 <div class="testi-author-pos">
                                                     <h6 data-animate="animate__fadeInUp"><span>Mr. Lucy</span> <span> - Designer</span></h6>
                                                     <div class="testi-desc" data-animate="animate__fadeInUp">
@@ -1492,7 +1368,7 @@
 <!-- search-modal end -->
 <!-- cart-drawer start -->
 <div class="cart-drawer" id="cart-drawer">
-    <form action="/cart" method="post" class="drawer-contents">
+    <form action="checkout.jsp" method="post" class="drawer-contents">
         <div class="drawer-fixed-header">
             <div class="drawer-header">
                 <h6 class="drawer-header-title">Cart</h6>
@@ -1523,7 +1399,7 @@
                                         <a href="javascript:void(0)">Headphone</a>
                                     </div>
                                     <div class="cart-item-price">
-                                        <span class="cart-price">$250.00</span>
+                                        <span class="cart-price">RM 250.00</span>
                                     </div>
                                     <div class="cart-item-variants">
                                         <h6>Color:</h6>
@@ -1561,10 +1437,10 @@
                             <div class="cart-item-details">
                                 <div class="cart-item-sub">
                                     <div class="cart-item-name">
-                                        <a href="javascript:void(0)">Electronic</a>
+                                        <a href="javascript:void(0)">Earbuds</a>
                                     </div>
                                     <div class="cart-item-price">
-                                        <span class="cart-price">$190.00</span>
+                                        <span class="cart-price">RM 89.00</span>
                                     </div>
                                     <div class="cart-item-variants">
                                         <h6>Color:</h6>
@@ -1602,10 +1478,10 @@
                             <div class="cart-item-details">
                                 <div class="cart-item-sub">
                                     <div class="cart-item-name">
-                                        <a href="javascript:void(0)">Home appliance</a>
+                                        <a href="javascript:void(0)">Laptop</a>
                                     </div>
                                     <div class="cart-item-price">
-                                        <span class="cart-price">$220.00</span>
+                                        <span class="cart-price">RM 3100.00</span>
                                     </div>
                                     <div class="cart-item-variants">
                                         <h6>Color:</h6>
@@ -1643,10 +1519,10 @@
                             <div class="cart-item-details">
                                 <div class="cart-item-sub">
                                     <div class="cart-item-name">
-                                        <a href="javascript:void(0)">Speakers</a>
+                                        <a href="javascript:void(0)">Smart watch</a>
                                     </div>
                                     <div class="cart-item-price">
-                                        <span class="cart-price">RM 220.00</span>
+                                        <span class="cart-price">RM 149.00</span>
                                     </div>
                                     <div class="cart-item-variants">
                                         <h6>Color:</h6>
@@ -1691,7 +1567,7 @@
                 <div class="drawer-cart-checkout">
                     <div class="cart-checkout-btn">
                         <button type="submit" name="checkout" class="btn btn-style">Checkout</button>
-                        <button type="button" onclick="location.href='cart-page.html'" class="btn btn-style2">View cart</button>
+                        <button type="button" onclick="location.href='cart.jsp'" class="btn btn-style2">View cart</button>
                     </div>
                 </div>
             </div>
@@ -1714,19 +1590,19 @@
                         <div class="swiper gallery-top">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="product-template.html"><img src="img/product/home9-p1.jpg" class="img-fluid" alt="p-1"></a>
+                                    <a href="collection.jsp"><img src="img/product/home9-p1.jpg" class="img-fluid" alt="p-1"></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="product-template.html"><img src="img/product/home9-p3.jpg" class="img-fluid" alt="p-2"></a>
+                                    <a href="collection.jsp"><img src="img/product/home9-p3.jpg" class="img-fluid" alt="p-2"></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="product-template.html"><img src="img/product/home9-p3.jpg" class="img-fluid" alt="p-3"></a>
+                                    <a href="collection.jsp"><img src="img/product/home9-p3.jpg" class="img-fluid" alt="p-3"></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="product-template.html"><img src="img/product/home9-p4.jpg" class="img-fluid" alt="p-4"></a>
+                                    <a href="collection.jsp"><img src="img/product/home9-p4.jpg" class="img-fluid" alt="p-4"></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="product-template.html"><img src="img/product/home9-p5.jpg" class="img-fluid" alt="p-5"></a>
+                                    <a href="collection.jsp"><img src="img/product/home9-p5.jpg" class="img-fluid" alt="p-5"></a>
                                 </div>
                             </div>
                             <div class="swiper-button">
@@ -1843,58 +1719,7 @@
 <!-- bg-scren start -->
 <div class="bg-screen"></div>
 <!-- bg-scren end -->
-<!-- bottom-menu start -->
-<div class="bottom-menu">
-    <ul class="bottom-menu-element">
-        <li class="bottom-menu-wrap">
-            <div class="bottom-menu-wrapper">
-                <a href="index2.html" class="bottom-menu-home">
-                    <span class="bottom-menu-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
-                    <span class="bottom-menu-title">Home</span>
-                </a>
-            </div>
-        </li>
-        <li class="bottom-menu-wrap">
-            <div class="bottom-menu-wrapper">
-                <a href="login-account.html" class="bottom-menu-user">
-                    <span class="bottom-menu-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
-                    <span class="bottom-menu-title">Account</span>
-                </a>
-            </div>
-        </li>
-        <li class="bottom-menu-wrap">
-            <div class="bottom-menu-wrapper">
-                <a href="collection.html" class="bottom-menu-collection">
-                    <span class="bottom-menu-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></span>
-                    <span class="bottom-menu-title">Shop</span>
-                </a>
-            </div>
-        </li>
-        <li class="bottom-menu-wrap">
-            <div class="bottom-menu-wrapper">
-                <a href="#searchmodal" data-bs-toggle="modal" class="bottom-menu-search">
-                    <span class="bottom-menu-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
-                    <span class="bottom-menu-title">search</span>
-                </a>
-            </div>
-        </li>
-        <li class="bottom-menu-wrap">
-            <div class="bottom-menu-wrapper">
-                <a href="wishlist-product.html" class="bottom-menu-wishlist">
-                            <span class="bottom-menu-icon-wrap">
-                                <span class="bottom-menu-icon"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                                <span class="bottom-menu-counter wishlist-counter">0</span>
-                            </span>
-                    <span class="bottom-menu-title">Wishlist</span>
-                </a>
-            </div>
-        </li>
-    </ul>
-</div>
-<!-- bottom-menu end -->
-
 <%@include file="./components/footers.html"%>
 <%@include file="./components/scripts.html"%>
-
 </body>
 </html>

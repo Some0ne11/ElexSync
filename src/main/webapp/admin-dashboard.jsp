@@ -183,8 +183,9 @@
     <div class="header">
         <h1>Dashboard Overview</h1>
         <button style="padding: 10px 20px; background-color: #e74c3c; color: white; border: none; border-radius: 5px;">
-            Logout
+            <a href="/login-account.jsp"> Logout </a>
         </button>
+
     </div>
     <%
         // Call the count methods
