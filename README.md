@@ -100,7 +100,7 @@ git clone https://github.com/Some0ne11/ElexSync.git
 <a href="https://github.com/arqriz">
 <img src="https://avatars.githubusercontent.com/u/187925967?v=4" width="100px;" alt="Profile Picture"/><br>
 <sub>
-<b>Luqman</b>
+<b>Arif</b>
 </sub>
 </a>
 </td>
