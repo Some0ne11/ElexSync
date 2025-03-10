@@ -34,6 +34,9 @@
 - JSP (Java Server Pages)
 - Java
 
+### Suggested IDE
+- IntelliJ IDEA Ultimate
+
 <h2 id="started">🚀 Getting Started</h2>
 
 Follow these steps to set up and run ElexSync locally.
